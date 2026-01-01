@@ -1,0 +1,128 @@
+{
+  "conditions": {
+    "blinded": {
+      "effects": [
+        "Can't see and automatically fails any ability check that requires sight",
+        "Attack rolls against the creature have advantage",
+        "The creature's attack rolls have disadvantage"
+      ],
+      "common_durations": ["1 round", "1 minute", "Until dispelled"]
+    },
+    "charmed": {
+      "effects": [
+        "Can't attack the charmer or target the charmer with harmful abilities or magical effects",
+        "The charmer has advantage on any ability check to interact socially with the creature"
+      ],
+      "common_durations": ["1 hour", "24 hours", "Until dispelled"]
+    },
+    "deafened": {
+      "effects": [
+        "Can't hear and automatically fails any ability check that requires hearing"
+      ],
+      "common_durations": ["1 round", "1 minute", "Until dispelled"]
+    },
+    "exhaustion": {
+      "effects": [
+        "Level 1: Disadvantage on ability checks",
+        "Level 2: Speed halved",
+        "Level 3: Disadvantage on attack rolls and saving throws",
+        "Level 4: Hit point maximum halved",
+        "Level 5: Speed reduced to 0",
+        "Level 6: Death"
+      ],
+      "common_durations": ["Until long rest (reduces by 1 level)"]
+    },
+    "frightened": {
+      "effects": [
+        "Has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight",
+        "Can't willingly move closer to the source of its fear"
+      ],
+      "common_durations": ["1 round", "1 minute", "Until dispelled"]
+    },
+    "grappled": {
+      "effects": [
+        "Speed becomes 0 and can't benefit from any bonus to speed",
+        "Ends if the grappler is incapacitated",
+        "Ends if an effect removes the grappled creature from the grappler's reach"
+      ],
+      "common_durations": ["Until escaped (Athletics/Acrobatics check)", "Until grappler releases"]
+    },
+    "incapacitated": {
+      "effects": [
+        "Can't take actions or reactions"
+      ],
+      "common_durations": ["1 round", "Until effect ends"]
+    },
+    "invisible": {
+      "effects": [
+        "Impossible to see without magic or special sense (considered heavily obscured for hiding)",
+        "The creature's location can be detected by noise or tracks",
+        "Attack rolls against the creature have disadvantage",
+        "The creature's attack rolls have advantage"
+      ],
+      "common_durations": ["1 round", "1 hour", "Until attack or spell cast"]
+    },
+    "paralyzed": {
+      "effects": [
+        "Is incapacitated and can't move or speak",
+        "Automatically fails Strength and Dexterity saving throws",
+        "Attack rolls against the creature have advantage",
+        "Any attack that hits is a critical hit if the attacker is within 5 feet"
+      ],
+      "common_durations": ["1 round", "1 minute", "Until saving throw succeeds"]
+    },
+    "petrified": {
+      "effects": [
+        "Transformed along with nonmagical objects into solid inanimate substance",
+        "Weight increases by factor of 10; ceases aging",
+        "Is incapacitated, can't move or speak, unaware of surroundings",
+        "Attack rolls against the creature have advantage",
+        "Automatically fails Strength and Dexterity saving throws",
+        "Has resistance to all damage",
+        "Immune to poison and disease (existing poison/disease suspended)"
+      ],
+      "common_durations": ["Until dispelled", "Permanent"]
+    },
+    "poisoned": {
+      "effects": [
+        "Has disadvantage on attack rolls and ability checks"
+      ],
+      "common_durations": ["1 round", "1 minute", "1 hour", "Until saving throw succeeds"]
+    },
+    "prone": {
+      "effects": [
+        "Can only crawl (every foot costs 1 extra foot) unless standing up",
+        "Has disadvantage on attack rolls",
+        "Attack rolls have advantage if attacker is within 5 feet, disadvantage otherwise"
+      ],
+      "common_durations": ["Until stands up (costs half movement)"]
+    },
+    "restrained": {
+      "effects": [
+        "Speed becomes 0 and can't benefit from any bonus to speed",
+        "Attack rolls against the creature have advantage",
+        "The creature's attack rolls have disadvantage",
+        "Has disadvantage on Dexterity saving throws"
+      ],
+      "common_durations": ["Until escaped", "Until effect ends"]
+    },
+    "stunned": {
+      "effects": [
+        "Is incapacitated, can't move, and can speak only falteringly",
+        "Automatically fails Strength and Dexterity saving throws",
+        "Attack rolls against the creature have advantage"
+      ],
+      "common_durations": ["1 round", "Until end of next turn"]
+    },
+    "unconscious": {
+      "effects": [
+        "Is incapacitated, can't move or speak, and is unaware of surroundings",
+        "Drops whatever it's holding and falls prone",
+        "Automatically fails Strength and Dexterity saving throws",
+        "Attack rolls against the creature have advantage",
+        "Any attack that hits is a critical hit if the attacker is within 5 feet"
+      ],
+      "common_durations": ["Until awakened", "Until HP restored above 0"]
+    }
+  }
+}

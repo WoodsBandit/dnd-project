@@ -1,0 +1,485 @@
+{
+  "names": {
+    "human": {
+      "male": ["Aldric", "Bran", "Cedric", "Dorian", "Edmund", "Felix", "Gareth", "Hugo", "Ivan", "Jasper", "Klaus", "Leon", "Marcus", "Nolan", "Oscar", "Pierce", "Quinn", "Roland", "Stefan", "Tobias", "Ulric", "Victor", "Warren", "Xavier", "York", "Zander"],
+      "female": ["Alina", "Brenna", "Clara", "Diana", "Elena", "Fiona", "Greta", "Helena", "Iris", "Julia", "Katrina", "Lydia", "Miranda", "Nadia", "Olivia", "Petra", "Quinn", "Rosa", "Selene", "Talia", "Una", "Vera", "Willa", "Xena", "Yara", "Zara"],
+      "surnames": ["Ashford", "Blackwood", "Crane", "Dunmore", "Everett", "Fletcher", "Graves", "Hartwell", "Ironside", "Jasper", "Kingsley", "Lancaster", "Mercer", "Northwood", "Oakheart", "Prescott", "Queensbury", "Ravencroft", "Sterling", "Thornton", "Underhill", "Vance", "Whitmore", "York", "Zimmer"]
+    },
+    "elf": {
+      "male": ["Aelindor", "Berethil", "Caelum", "Daeloth", "Erevan", "Faelar", "Galanodel", "Haelion", "Ilmarin", "Jhaeros", "Kelvhan", "Laucian", "Merethyl", "Naevys", "Oreleth", "Paelias", "Quarion", "Riardon", "Soveliss", "Thamior", "Ulreith", "Varis", "Wynrieth", "Xiloscient", "Yeltris", "Zelphar"],
+      "female": ["Aelindra", "Birel", "Caelynn", "Drusilia", "Enna", "Felosial", "Galinndan", "Hadarai", "Ielenia", "Jelenneth", "Keyleth", "Lia", "Mialee", "Naivara", "Olladra", "Phaeris", "Quelenna", "Rindel", "Sariel", "Thia", "Usileth", "Vadania", "Wynrae", "Xanaphia", "Yalanue", "Zestari"],
+      "surnames": ["Amakiir", "Brightwood", "Craulnober", "Despana", "Ereqor", "Floshem", "Galanodel", "Holimion", "Ilphelkiir", "Jhaelara", "Koehlanna", "Liadon", "Meliamne", "Nailo", "Olorae", "Preslee", "Quessir", "Rilynghym", "Siannodel", "Tiltathana", "Ulondar", "Virric", "Wysaralei", "Xiloscient", "Yaeldrin", "Zumre"]
+    },
+    "dwarf": {
+      "male": ["Adrik", "Barendd", "Brottor", "Darrak", "Eberk", "Fargrim", "Gardain", "Harbek", "Kildrak", "Morgran", "Orsik", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Tordek", "Traubon", "Ulfgar", "Vondal", "Baern", "Dain", "Gimli", "Helgrim", "Ingram", "Norn"],
+      "female": ["Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra", "Brenna", "Dara", "Elga", "Frida"],
+      "surnames": ["Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart", "Deepdelver", "Gemcutter", "Goldvein", "Hammerfell", "Ironshield", "Oakenshield", "Stoneheart", "Thunderaxe", "Trollbane", "Wyrmslayer", "Anvilmar"]
+    },
+    "halfling": {
+      "male": ["Alton", "Ander", "Cade", "Corrin", "Eldon", "Errich", "Finnan", "Garret", "Lindal", "Lyle", "Merric", "Milo", "Osborn", "Perrin", "Reed", "Roscoe", "Wellby", "Bilbo", "Drogo", "Falco", "Hamfast", "Largo", "Polo", "Samwise", "Tobias", "Wilcome"],
+      "female": ["Andry", "Bree", "Callie", "Cora", "Euphemia", "Jillian", "Kithri", "Lavinia", "Lidda", "Merla", "Nedda", "Paela", "Portia", "Seraphina", "Shaena", "Trym", "Vani", "Verna", "Belladonna", "Daisy", "Esmeralda", "Marigold", "Petunia", "Primrose", "Ruby", "Tansy"],
+      "surnames": ["Brushgather", "Goodbarrel", "Greenbottle", "High-hill", "Hilltopple", "Leagallow", "Tealeaf", "Thorngage", "Tosscobble", "Underbough", "Baggins", "Brandybuck", "Burrows", "Chubb", "Gamgee", "Goodbody", "Proudfoot", "Sackville", "Took", "Appleblossom", "Heathertoe", "Meadowbrook", "Riverwillow", "Shortwick", "Sweetwater", "Thistledown"]
+    },
+    "gnome": {
+      "male": ["Alston", "Alvyn", "Boddynock", "Brocc", "Burgell", "Dimble", "Eldon", "Erky", "Fonkin", "Frug", "Gerbo", "Gimble", "Glim", "Jebeddo", "Kellen", "Namfoodle", "Orryn", "Roondar", "Seebo", "Sindri", "Warryn", "Wrenn", "Zook", "Bimpnottin", "Caramip", "Pock"],
+      "female": ["Bimpnottin", "Breena", "Caramip", "Carlin", "Donella", "Duvamil", "Ella", "Ellyjobell", "Ellywick", "Lilli", "Loopmottin", "Lorilla", "Mardnab", "Nissa", "Nyx", "Oda", "Orla", "Roywyn", "Shamil", "Tana", "Waywocket", "Zanna", "Callia", "Fenthwick", "Zestari", "Vivi"],
+      "surnames": ["Beren", "Daergel", "Folkor", "Garrick", "Nackle", "Murnig", "Ningel", "Raulnor", "Scheppen", "Timbers", "Turen", "Cogsworth", "Fizzlebang", "Geargrinder", "Goldsprocket", "Ironwhistle", "Nimbledigit", "Sparklegem", "Tinkertop", "Wobblecog", "Wrenchwright", "Bafflestone", "Clockwork", "Gadgetspring", "Mindbender", "Riddlerock"]
+    },
+    "half-elf": {
+      "male": ["Aldric", "Caelum", "Dorian", "Eravan", "Felix", "Gaelen", "Hugo", "Ivan", "Jasper", "Kaelen", "Leon", "Merrick", "Nolan", "Orion", "Pierce", "Quinn", "Roland", "Silas", "Tristan", "Ulric", "Valen", "Warren", "Xavier", "Yorick", "Zephyr", "Alaric"],
+      "female": ["Alina", "Brynn", "Celeste", "Diana", "Elena", "Faye", "Giselle", "Helena", "Iris", "Jasmine", "Kira", "Lyra", "Miranda", "Nadia", "Ophelia", "Petra", "Quinn", "Rhiannon", "Selene", "Thalia", "Una", "Vera", "Wren", "Xyla", "Yara", "Zara"],
+      "surnames": ["Ashford", "Brightwood", "Crane", "Dawnstrider", "Everhart", "Fairwind", "Graymantle", "Hawkwind", "Ironwood", "Jadestar", "Kingsley", "Lightfoot", "Moonwhisper", "Nightingale", "Oakheart", "Proudbow", "Quicksilver", "Ravensong", "Starling", "Thornwood", "Underwood", "Valewind", "Winterborn", "Yarrow", "Zephyr", "Amberfall"]
+    },
+    "half-orc": {
+      "male": ["Argran", "Braak", "Cragtar", "Dench", "Ergoth", "Feng", "Grul", "Henk", "Imsh", "Jorok", "Krusk", "Lortar", "Morg", "Nargul", "Orug", "Pruk", "Quarg", "Ront", "Shump", "Thokk", "Urag", "Vrak", "Wurg", "Xorn", "Yurk", "Zorn"],
+      "female": ["Baggi", "Canan", "Drotha", "Ekk", "Friga", "Groma", "Harva", "Ilga", "Jura", "Keth", "Lurg", "Morna", "Neega", "Ovak", "Puula", "Rega", "Shautha", "Tarog", "Urzul", "Vola", "Wulga", "Xara", "Yevelda", "Zola", "Bagara", "Drenna"],
+      "surnames": ["Battleborn", "Bloodfist", "Bonecrusher", "Doomhammer", "Earthshaker", "Firebrand", "Gorehowl", "Hellscream", "Ironhide", "Jawbreaker", "Killshot", "Limbripper", "Maneater", "Nightblade", "Ogreslayer", "Painbringer", "Quickdeath", "Ragefist", "Skullsplitter", "Thunderfury", "Underfoot", "Vileblood", "Warmaker", "Yellowfang", "Zugzug", "Axeripper"]
+    },
+    "tiefling": {
+      "male": ["Akmenos", "Amnon", "Barakas", "Damakos", "Ekemon", "Fennix", "Gathak", "Haemon", "Iados", "Jakhar", "Kairon", "Leucis", "Melech", "Mordai", "Nethys", "Oriax", "Pelaios", "Qemuel", "Raziel", "Skamos", "Therai", "Uriel", "Vexor", "Wrath", "Xaphan", "Zerxes"],
+      "female": ["Akta", "Bryseis", "Criella", "Damaia", "Ea", "Felicity", "Grace", "Hope", "Ideal", "Joy", "Kallista", "Lerissa", "Makaria", "Nemeia", "Orianna", "Phelaia", "Quethi", "Rieta", "Seraphine", "Tariel", "Unity", "Verity", "Whisper", "Xylona", "Yennen", "Zariel"],
+      "surnames": ["Ashfall", "Brimstone", "Cinderheart", "Darkhollow", "Emberclaw", "Flamewrath", "Grimshaw", "Hellion", "Infernax", "Jadeheart", "Kindlebane", "Lightbane", "Maleficar", "Nightwalker", "Obsidian", "Pyreheart", "Quickember", "Ragefire", "Soulbrand", "Thornheart", "Umbraxus", "Voidwalker", "Wraithborne", "Xeraphim", "Yarnspinner", "Zephyrus"]
+    },
+    "dragonborn": {
+      "male": ["Arjhan", "Balasar", "Bharash", "Donaar", "Ghesh", "Heskan", "Kriv", "Medrash", "Mehen", "Nadarr", "Pandjed", "Patrin", "Rhogar", "Shamash", "Shedinn", "Tarhun", "Torinn", "Balthazar", "Drakon", "Ferno", "Gorivax", "Horatio", "Ignatius", "Jareth", "Korinn", "Lorax"],
+      "female": ["Akra", "Biri", "Daar", "Farideh", "Harann", "Havilar", "Jheri", "Kava", "Korinn", "Mishann", "Nala", "Perra", "Raiann", "Sora", "Surina", "Thava", "Uadjit", "Anira", "Belara", "Cynder", "Drakka", "Embera", "Fyrra", "Goldia", "Hyria", "Ixen"],
+      "clan_names": ["Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", "Fenkenkabradon", "Kepeshkmolik", "Kerrhylon", "Kimbatuul", "Linxakasendalor", "Myastan", "Nemmonis", "Norixius", "Ophinshtalajiir", "Prexijandilin", "Shestendeliath", "Turnuroth", "Verthisathurgiesh", "Yarjerit", "Aurumvex", "Flamescale", "Ironwing", "Obsidianfang", "Stormbreath", "Thunderclaw", "Voidscale", "Wyrmguard"]
+    }
+  },
+  "personality_traits": [
+    "I always have a plan for what to do when things go wrong.",
+    "I am always calm, no matter what the situation.",
+    "I fall in and out of love easily, and am always pursuing someone.",
+    "I have a joke for every occasion, especially inappropriate ones.",
+    "I am incredibly slow to trust. Those who seem fairest often have the most to hide.",
+    "I don't pay attention to the risks in a situation. Never tell me the odds!",
+    "I blow up at the slightest insult.",
+    "I pocket anything I see that might have some value.",
+    "I would rather make a new friend than a new enemy.",
+    "I'm always polite and respectful, even to my enemies.",
+    "I've read every book in the world's greatest libraries.",
+    "I'm used to helping out those who aren't as smart as I am.",
+    "Nothing can shake my optimistic attitude.",
+    "I can find common ground between the fiercest enemies.",
+    "I judge people by their actions, not their words.",
+    "If someone is in trouble, I'm always ready to lend help.",
+    "I sleep with my back to a wall, with everything I own strapped to my body.",
+    "I eat like a pig and have bad manners.",
+    "I think anyone who's nice to me is hiding evil intent.",
+    "I don't like to bathe.",
+    "Sarcasm and insults are my weapons of choice.",
+    "I change my mood or my mind as quickly as I change key in a song.",
+    "I'm oblivious to etiquette and social expectations.",
+    "I connect everything that happens to me to a grand, cosmic plan.",
+    "I often get lost in my own thoughts and contemplation.",
+    "I am working on a grand philosophical theory.",
+    "I'm horribly jealous of anyone who can outshine me.",
+    "I've spent so long in the temple that I have little practical experience.",
+    "I quote sacred texts and proverbs in almost every situation.",
+    "Flattery is my preferred trick for getting what I want.",
+    "I'm confident in my own abilities and do what I can to instill confidence in others.",
+    "I hide scraps of food and trinkets away in my pockets.",
+    "I ask a lot of questions.",
+    "I like to squeeze into small places where no one else can get to me.",
+    "I bluntly say what others are hinting at or hiding.",
+    "I feel far more comfortable around animals than people.",
+    "I was raised by wolves, or so I claim.",
+    "The common folk love me for my kindness.",
+    "No one could doubt by looking at my regal bearing that I am a cut above.",
+    "I take great pains to always look my best.",
+    "Despite my noble birth, I do not place myself above other folk.",
+    "I'm driven by a wanderlust that led me away from home.",
+    "I watch over my friends as if they were a litter of newborn pups.",
+    "I place no stock in wealthy or well-mannered folk.",
+    "I misuse long words in an attempt to sound smarter.",
+    "I get bored easily. When am I going to get on with my destiny?",
+    "I have a strong sense of fair play.",
+    "I'm always picking things up, absently fiddling with them.",
+    "I know a story relevant to almost every situation.",
+    "Whenever I come to a new place, I collect local rumors."
+  ],
+  "ideals": [
+    {"ideal": "Greater Good", "description": "My gifts are meant to be shared with all, not used for my own benefit.", "alignment": "Good"},
+    {"ideal": "Respect", "description": "People deserve to be treated with dignity and respect.", "alignment": "Good"},
+    {"ideal": "Fairness", "description": "No one should get preferential treatment before the law.", "alignment": "Lawful"},
+    {"ideal": "Honor", "description": "If I dishonor myself, I dishonor my whole family.", "alignment": "Lawful"},
+    {"ideal": "Tradition", "description": "The ancient traditions of worship and sacrifice must be preserved.", "alignment": "Lawful"},
+    {"ideal": "Charity", "description": "I always try to help those in need, no matter what the cost.", "alignment": "Good"},
+    {"ideal": "Change", "description": "We must help bring about the changes the gods are constantly working in the world.", "alignment": "Chaotic"},
+    {"ideal": "Power", "description": "I hope to one day rise to the top of my faith's hierarchy.", "alignment": "Lawful"},
+    {"ideal": "Faith", "description": "I trust that my deity will guide my actions. I have faith that if I work hard, things will go well.", "alignment": "Lawful"},
+    {"ideal": "Aspiration", "description": "I seek to prove myself worthy of my god's favor by matching my actions against their teachings.", "alignment": "Any"},
+    {"ideal": "Independence", "description": "I am a free spirit - no one tells me what to do.", "alignment": "Chaotic"},
+    {"ideal": "Greed", "description": "I will do whatever it takes to become wealthy.", "alignment": "Evil"},
+    {"ideal": "People", "description": "I'm loyal to my friends, not to any ideals.", "alignment": "Neutral"},
+    {"ideal": "Redemption", "description": "There's a spark of good in everyone.", "alignment": "Good"},
+    {"ideal": "Beauty", "description": "When I perform, I make the world better than it was.", "alignment": "Good"},
+    {"ideal": "Freedom", "description": "Everyone should be free to pursue their own livelihood.", "alignment": "Chaotic"},
+    {"ideal": "Creativity", "description": "The world is in need of new ideas and bold action.", "alignment": "Chaotic"},
+    {"ideal": "Sincerity", "description": "There's no good pretending to be something I'm not.", "alignment": "Neutral"},
+    {"ideal": "Knowledge", "description": "The path to power and self-improvement is through knowledge.", "alignment": "Neutral"},
+    {"ideal": "Self-Improvement", "description": "The goal of a life of study is the betterment of oneself.", "alignment": "Any"},
+    {"ideal": "Logic", "description": "Emotions must not cloud our sense of what is right and true.", "alignment": "Lawful"},
+    {"ideal": "No Limits", "description": "Nothing should fetter the infinite possibility inherent in all existence.", "alignment": "Chaotic"},
+    {"ideal": "Destiny", "description": "Nothing and no one can steer me away from my higher calling.", "alignment": "Any"},
+    {"ideal": "Community", "description": "It is the duty of all civilized people to strengthen the bonds of community.", "alignment": "Lawful"},
+    {"ideal": "Live and Let Live", "description": "Meddling in others' affairs only causes trouble.", "alignment": "Neutral"},
+    {"ideal": "Might", "description": "If I become strong, I can take what I want.", "alignment": "Evil"},
+    {"ideal": "Nature", "description": "The natural world is more important than all the constructs of civilization.", "alignment": "Neutral"},
+    {"ideal": "Glory", "description": "I must earn glory in battle, for myself and my clan.", "alignment": "Any"},
+    {"ideal": "Nation", "description": "My city, nation, or people are all that matter.", "alignment": "Any"},
+    {"ideal": "Noble Obligation", "description": "It is my duty to protect and care for the people beneath me.", "alignment": "Good"}
+  ],
+  "bonds": [
+    "I would die to recover an ancient relic that was lost long ago.",
+    "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+    "I owe my life to the priest who took me in when my parents died.",
+    "Everything I do is for the common people.",
+    "I will do anything to protect the temple where I served.",
+    "I seek to preserve a sacred text that my enemies seek to destroy.",
+    "My instrument is my most treasured possession, a reminder of someone I love.",
+    "Someone stole my precious instrument, and someday I'll get it back.",
+    "I want to be famous, whatever it takes.",
+    "I idolize a hero of the old tales and measure my deeds against theirs.",
+    "I will become the greatest thief that ever lived.",
+    "I'm guilty of a terrible crime. I hope I can redeem myself for it.",
+    "Someone I loved died because of a mistake I made.",
+    "I escaped my life of poverty by robbing an important person.",
+    "My ill-gotten gains go to support my family.",
+    "Something important was taken from me, and I aim to steal it back.",
+    "I have a family, but I have no idea where they are.",
+    "I swindled and ruined a person who didn't deserve it.",
+    "My town or city is my home, and I'll fight to defend it.",
+    "I sponsor an orphanage to keep others from enduring what I was forced to endure.",
+    "I owe everything to my mentor - a horrible person who's probably rotting in jail.",
+    "I come from a noble family, and one day I'll reclaim my lands and title.",
+    "My family, clan, or tribe is the most important thing in my life.",
+    "An injury to the unspoiled wilderness of my home is an injury to me.",
+    "I am in love with the heir of a family that my family despises.",
+    "I will face any challenge to win the approval of my family.",
+    "The common folk must see me as a hero of the people.",
+    "I protect those who cannot protect themselves.",
+    "I entered seclusion to hide from those who might still be hunting me.",
+    "I'm still seeking the enlightenment I pursued in my seclusion."
+  ],
+  "flaws": [
+    "I judge others harshly, and myself even more severely.",
+    "I put too much trust in those who wield power within my temple's hierarchy.",
+    "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+    "I am inflexible in my thinking.",
+    "I am suspicious of strangers and expect the worst of them.",
+    "Once I pick a goal, I become obsessed with it to the detriment of everything else.",
+    "I'll do anything to win fame and renown.",
+    "I'm a sucker for a pretty face.",
+    "A scandal prevents me from ever going home again.",
+    "I once satirized a noble who still wants my head.",
+    "I have trouble keeping my true feelings hidden.",
+    "I can't resist swindling people who are more powerful than me.",
+    "I can't resist a pretty face.",
+    "I'm always in debt. I spend my ill-gotten gains on decadent luxuries.",
+    "I can't resist taking a risk if there's money involved.",
+    "I have a 'tell' that reveals when I'm lying.",
+    "I turn tail and run when things look bad.",
+    "An innocent person is in prison for a crime that I committed.",
+    "I will never fully trust anyone other than myself.",
+    "I'd rather kill someone in their sleep than fight fair.",
+    "It's not stealing if I need it more than someone else.",
+    "People who can't take care of themselves get what they deserve.",
+    "I am dogmatic in my thoughts and philosophy.",
+    "I let my need to win arguments overshadow friendships and harmony.",
+    "I overlook obvious solutions in favor of complicated ones.",
+    "I speak without really thinking through my words, invariably insulting others.",
+    "I follow orders, even if I think they're wrong.",
+    "I'll say anything to avoid having to do extra work.",
+    "I remember every insult I've received and nurse a silent resentment.",
+    "I am slow to trust members of other races, tribes, and societies.",
+    "Violence is my answer to almost any challenge.",
+    "Don't expect me to save those who can't save themselves.",
+    "I secretly believe that everyone is beneath me.",
+    "I hide a truly scandalous secret that could ruin my family forever.",
+    "I too often hear veiled insults and threats in every word addressed to me.",
+    "I have an insatiable desire for carnal pleasures.",
+    "In fact, the world does revolve around me.",
+    "By my words and actions, I often bring shame to my family.",
+    "I am too enamored of ale, wine, and other intoxicants.",
+    "I harbor dark, bloodthirsty thoughts that my isolation failed to quell."
+  ],
+  "occupations": {
+    "commoner": [
+      "Farmer", "Baker", "Blacksmith", "Carpenter", "Cobbler", "Cooper", "Fletcher",
+      "Herbalist", "Innkeeper", "Leatherworker", "Mason", "Miller", "Potter", "Tailor",
+      "Tanner", "Weaver", "Brewer", "Butcher", "Candlemaker", "Fisherman", "Furrier",
+      "Glassblower", "Jeweler", "Locksmith", "Painter", "Scribe", "Servant", "Shepherd",
+      "Stableman", "Woodcutter"
+    ],
+    "merchant": [
+      "General Goods Merchant", "Weapons Dealer", "Armor Merchant", "Magic Item Dealer",
+      "Potion Seller", "Book Dealer", "Exotic Goods Trader", "Jeweler", "Cloth Merchant",
+      "Horse Trader", "Food Vendor", "Antiques Dealer", "Map Seller", "Spice Merchant",
+      "Wine Merchant", "Art Dealer", "Scroll Vendor", "Curiosities Dealer"
+    ],
+    "guard": [
+      "City Watch", "Castle Guard", "Caravan Guard", "Personal Bodyguard",
+      "Prison Guard", "Gate Guard", "Night Watch", "Harbor Guard", "Temple Guard",
+      "Merchant Guard", "Noble's Guard", "Royal Guard", "Militia", "Bouncer"
+    ],
+    "noble": [
+      "Baron/Baroness", "Count/Countess", "Duke/Duchess", "Lord/Lady", "Knight",
+      "Prince/Princess", "Marquis/Marquise", "Viscount/Viscountess", "Earl",
+      "Minor Noble", "Landed Gentry", "Court Advisor", "Ambassador", "Magistrate"
+    ],
+    "criminal": [
+      "Pickpocket", "Burglar", "Smuggler", "Fence", "Assassin", "Spy", "Forger",
+      "Con Artist", "Thug", "Gang Leader", "Highwayman", "Pirate", "Loan Shark",
+      "Blackmailer", "Informant", "Counterfeiter"
+    ],
+    "entertainer": [
+      "Bard", "Actor", "Dancer", "Acrobat", "Juggler", "Storyteller", "Poet",
+      "Comedian", "Singer", "Musician", "Fire Eater", "Sword Swallower",
+      "Fortune Teller", "Street Performer", "Court Jester", "Puppeteer"
+    ],
+    "religious": [
+      "Priest/Priestess", "Acolyte", "Temple Keeper", "Monk", "Nun", "Paladin",
+      "Inquisitor", "Shrine Tender", "Missionary", "Healer", "Oracle", "Chaplain"
+    ],
+    "scholar": [
+      "Sage", "Librarian", "Historian", "Alchemist", "Astronomer", "Cartographer",
+      "Naturalist", "Philosopher", "Researcher", "Teacher", "Archivist", "Translator"
+    ],
+    "military": [
+      "Soldier", "Knight", "Officer", "General", "Scout", "Archer", "Cavalry",
+      "Siege Engineer", "Quartermaster", "Drill Sergeant", "Veteran", "Mercenary"
+    ],
+    "adventurer_class": [
+      "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin",
+      "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard", "Artificer", "Blood Hunter"
+    ]
+  },
+  "motivations": [
+    "Seeks revenge against someone who wronged them",
+    "Wants to amass great wealth",
+    "Searches for a lost family member",
+    "Desires power and influence",
+    "Pursues forbidden knowledge",
+    "Wants to prove their worth to someone",
+    "Seeks redemption for past sins",
+    "Wants to protect their home/family",
+    "Desires fame and recognition",
+    "Searches for a cure to a disease/curse",
+    "Wants to overthrow a corrupt authority",
+    "Seeks to restore their family's honor",
+    "Pursues romantic love",
+    "Wants to complete a sacred mission",
+    "Desires to master their craft",
+    "Searches for a legendary artifact",
+    "Wants simple peace and quiet",
+    "Seeks adventure and excitement",
+    "Desires to understand the world",
+    "Wants to leave a lasting legacy",
+    "Pursues justice for the innocent",
+    "Seeks to break a family curse",
+    "Wants to reunite a broken group",
+    "Desires to escape their past",
+    "Searches for their true identity",
+    "Wants to fulfill a prophecy",
+    "Seeks to create something beautiful",
+    "Desires to serve a higher power",
+    "Wants to destroy an ancient evil",
+    "Pursues eternal life or youth"
+  ],
+  "mannerisms": {
+    "speech": [
+      "Speaks in a thick accent",
+      "Stutters when nervous",
+      "Uses overly formal language",
+      "Peppers speech with profanity",
+      "Speaks in the third person",
+      "Whispers everything",
+      "Has a booming, loud voice",
+      "Speaks very slowly and deliberately",
+      "Talks extremely fast",
+      "Uses lots of hand gestures while talking",
+      "Has a distinctive laugh",
+      "Clears throat frequently",
+      "Uses outdated slang",
+      "Mispronounces common words",
+      "Never uses contractions",
+      "Ends sentences as questions",
+      "Hums or sings while talking",
+      "Uses elaborate metaphors",
+      "Quotes proverbs constantly",
+      "Has a catchphrase they repeat often"
+    ],
+    "physical": [
+      "Constantly fidgets with something",
+      "Twirls hair or beard",
+      "Cracks knuckles frequently",
+      "Paces while thinking",
+      "Never makes eye contact",
+      "Stares intensely at everyone",
+      "Has a nervous tic",
+      "Drums fingers on surfaces",
+      "Constantly adjusts clothing",
+      "Sniffs frequently",
+      "Bites nails",
+      "Scratches head when confused",
+      "Rubs hands together",
+      "Stands very close to people",
+      "Keeps arms crossed always",
+      "Points at people while talking",
+      "Tilts head when listening",
+      "Bounces leg while seated",
+      "Touches face often",
+      "Has a distinctive walk (limp, swagger, etc.)"
+    ]
+  },
+  "appearance": {
+    "build": [
+      "Tall and lanky", "Short and stocky", "Average height and build",
+      "Muscular and broad", "Thin and wiry", "Heavyset", "Athletic",
+      "Petite", "Imposing", "Frail-looking"
+    ],
+    "hair": [
+      "Long flowing hair", "Completely bald", "Close-cropped hair",
+      "Wild, unkempt hair", "Elaborate braids", "Graying at the temples",
+      "Bright unusual color", "Thinning hair", "Thick curly hair",
+      "Straight and sleek", "Mohawk", "Hair covering one eye"
+    ],
+    "face": [
+      "Sharp angular features", "Soft round face", "Heavily scarred",
+      "Distinctive birthmark", "Missing teeth", "Gold tooth",
+      "Bushy eyebrows", "Clean-shaven", "Impressive beard/mustache",
+      "Pierced nose/ears", "Tattoos on face", "Eye patch",
+      "Different colored eyes", "Perpetual scowl", "Always smiling"
+    ],
+    "distinctive": [
+      "Missing finger(s)", "Prominent scar", "Unusual eye color",
+      "Distinctive tattoo", "Always wears a specific color",
+      "Carries an unusual item", "Wears mismatched clothing",
+      "Has a pet always with them", "Wears lots of jewelry",
+      "Has an unusual smell (pleasant or not)", "Walks with a limp",
+      "Missing an ear", "Covered in freckles", "Albino",
+      "Extremely hairy", "Unnaturally pale/tan"
+    ]
+  },
+  "secrets": [
+    "Is actually a spy for a rival faction",
+    "Has committed a murder that was never solved",
+    "Is secretly in love with someone forbidden",
+    "Has a hidden stash of stolen goods",
+    "Is being blackmailed",
+    "Has a secret identity as a vigilante",
+    "Is addicted to a substance",
+    "Has made a deal with a devil/demon",
+    "Is actually a shapeshifter/doppelganger",
+    "Knows the location of a hidden treasure",
+    "Has a terminal illness they hide from others",
+    "Is heir to a noble house but in hiding",
+    "Witnessed a crime but is too afraid to speak",
+    "Is secretly working to overthrow the local government",
+    "Has a forbidden magical ability they hide",
+    "Is actually much older than they appear",
+    "Has a child no one knows about",
+    "Is planning to betray their employer",
+    "Knows embarrassing secrets about important people",
+    "Is wanted for crimes in another region",
+    "Has been replaced by an imposter (the real one is missing)",
+    "Is secretly illiterate but pretends otherwise",
+    "Has a gambling addiction with massive debts",
+    "Is the bastard child of nobility",
+    "Serves a secret cult",
+    "Has information that could start a war",
+    "Is plotting revenge against the party or their allies",
+    "Has a cursed item they can't get rid of",
+    "Is actually dead and doesn't know it (ghost)",
+    "Knows the true identity of a famous hero/villain"
+  ],
+  "races": {
+    "common": {
+      "human": 30,
+      "half-elf": 15,
+      "halfling": 12,
+      "dwarf": 12,
+      "elf": 10
+    },
+    "uncommon": {
+      "gnome": 6,
+      "half-orc": 6,
+      "tiefling": 5,
+      "dragonborn": 4
+    }
+  },
+  "moods": [
+    "Cheerful and optimistic",
+    "Irritable and short-tempered",
+    "Nervous and anxious",
+    "Calm and collected",
+    "Suspicious and wary",
+    "Bored and listless",
+    "Excited and energetic",
+    "Sad and melancholic",
+    "Angry and hostile",
+    "Distracted and preoccupied",
+    "Friendly and welcoming",
+    "Exhausted and weary",
+    "Fearful and jumpy",
+    "Arrogant and dismissive",
+    "Curious and inquisitive",
+    "Drunk and uninhibited",
+    "Secretive and evasive",
+    "Desperate and pleading",
+    "Smug and self-satisfied",
+    "Grieving and withdrawn"
+  ],
+  "stat_blocks": {
+    "commoner": {
+      "ac": 10,
+      "hp": 4,
+      "speed": 30,
+      "stats": {"str": 10, "dex": 10, "con": 10, "int": 10, "wis": 10, "cha": 10},
+      "cr": "0"
+    },
+    "guard": {
+      "ac": 16,
+      "hp": 11,
+      "speed": 30,
+      "stats": {"str": 13, "dex": 12, "con": 12, "int": 10, "wis": 11, "cha": 10},
+      "cr": "1/8"
+    },
+    "noble": {
+      "ac": 15,
+      "hp": 9,
+      "speed": 30,
+      "stats": {"str": 11, "dex": 12, "con": 11, "int": 12, "wis": 14, "cha": 16},
+      "cr": "1/8"
+    },
+    "spy": {
+      "ac": 12,
+      "hp": 27,
+      "speed": 30,
+      "stats": {"str": 10, "dex": 15, "con": 10, "int": 12, "wis": 14, "cha": 16},
+      "cr": "1"
+    },
+    "veteran": {
+      "ac": 17,
+      "hp": 58,
+      "speed": 30,
+      "stats": {"str": 16, "dex": 13, "con": 14, "int": 10, "wis": 11, "cha": 10},
+      "cr": "3"
+    },
+    "mage": {
+      "ac": 12,
+      "hp": 40,
+      "speed": 30,
+      "stats": {"str": 9, "dex": 14, "con": 11, "int": 17, "wis": 12, "cha": 11},
+      "cr": "6"
+    },
+    "assassin": {
+      "ac": 15,
+      "hp": 78,
+      "speed": 30,
+      "stats": {"str": 11, "dex": 16, "con": 14, "int": 13, "wis": 11, "cha": 10},
+      "cr": "8"
+    }
+  }
+}

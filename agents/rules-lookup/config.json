@@ -1,0 +1,93 @@
+{
+  "agent_name": "rules-lookup",
+  "version": "1.0.0",
+  "description": "Fast D&D 5e rules reference for active gameplay",
+
+  "settings": {
+    "response_style": "concise",
+    "cite_sources": true,
+    "include_page_numbers": true,
+    "rules_system": "dnd5e",
+    "priority": "raw_first",
+    "include_sage_advice": true
+  },
+
+  "response_templates": {
+    "quick_lookup": {
+      "format": ["topic", "summary", "key_points", "source"],
+      "max_length": "5 lines"
+    },
+    "spell": {
+      "format": ["name_level_school", "casting_info", "duration", "effect", "upcast", "key_ruling", "source"],
+      "max_length": "8 lines"
+    },
+    "condition": {
+      "format": ["name", "effects", "ends_when", "common_misconception"],
+      "max_length": "6 lines"
+    },
+    "combat_action": {
+      "format": ["name", "action_cost", "requirements", "effect", "common_mistake"],
+      "max_length": "6 lines"
+    },
+    "edge_case": {
+      "format": ["raw", "ambiguity", "sage_advice", "common_ruling"],
+      "max_length": "8 lines"
+    }
+  },
+
+  "knowledge_domains": [
+    {
+      "id": "core_rules",
+      "topics": ["action_economy", "attacks", "saves", "checks", "advantage", "cover", "movement", "resting"]
+    },
+    {
+      "id": "combat",
+      "topics": ["initiative", "opportunity_attacks", "grappling", "shoving", "two_weapon", "mounted", "underwater"]
+    },
+    {
+      "id": "spellcasting",
+      "topics": ["slots", "concentration", "counterspell", "components", "ritual", "aoe"]
+    },
+    {
+      "id": "conditions",
+      "topics": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"]
+    },
+    {
+      "id": "class_features",
+      "topics": ["multiclassing", "feature_interactions", "class_specific_rules"]
+    }
+  ],
+
+  "quick_reference_tables": {
+    "advantage_sources": ["unseen_attacker", "help_action", "prone_melee", "reckless_attack", "pack_tactics", "faerie_fire"],
+    "disadvantage_sources": ["unseen_target", "prone_ranged", "restrained", "frightened", "long_range", "heavy_weapon_small"],
+    "action_types": ["action", "bonus_action", "reaction", "movement", "free_action", "object_interaction"],
+    "cover_types": ["half", "three_quarters", "full"],
+    "exhaustion_levels": [1, 2, 3, 4, 5, 6]
+  },
+
+  "source_priority": [
+    "PHB (Player's Handbook)",
+    "DMG (Dungeon Master's Guide)",
+    "XGtE (Xanathar's Guide)",
+    "TCoE (Tasha's Cauldron)",
+    "Sage Advice Compendium",
+    "Crawford Twitter Rulings"
+  ],
+
+  "edge_case_handling": {
+    "ambiguous_raw": "state_raw_then_common_ruling",
+    "no_official_ruling": "cite_sage_advice_or_common_table_ruling",
+    "contested_ruling": "present_both_interpretations"
+  },
+
+  "quick_commands": {
+    "spell": "Full spell stat block",
+    "condition": "Condition effects and end triggers",
+    "action": "Combat action rules",
+    "check": "Quick yes/no rules check",
+    "edge": "Ambiguous rules analysis"
+  },
+
+  "tags": ["dnd", "5e", "rules", "reference", "lookup", "srd", "raw"]
+}

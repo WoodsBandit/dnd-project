@@ -1,0 +1,2381 @@
+{
+  "description": "SRD 5.1 Monsters for D&D 5e Encounter Generator",
+  "monsters": [
+    {
+      "name": "Aboleth",
+      "cr": "10",
+      "xp": 5900,
+      "type": "aberration",
+      "environments": ["underwater", "underground"],
+      "tactics": "Uses Enslave from distance, then attacks with tentacles. Retreats to water if threatened."
+    },
+    {
+      "name": "Acolyte",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "humanoid",
+      "environments": ["urban", "temple"],
+      "tactics": "Supports allies with healing, uses Sacred Flame at range."
+    },
+    {
+      "name": "Adult Black Dragon",
+      "cr": "14",
+      "xp": 11500,
+      "type": "dragon",
+      "environments": ["swamp", "underground"],
+      "tactics": "Opens with breath weapon, uses flight to stay mobile, targets weakest party members."
+    },
+    {
+      "name": "Adult Blue Dragon",
+      "cr": "16",
+      "xp": 15000,
+      "type": "dragon",
+      "environments": ["desert", "coastal"],
+      "tactics": "Burrows to ambush, uses breath weapon in lines, employs Frightful Presence."
+    },
+    {
+      "name": "Adult Green Dragon",
+      "cr": "15",
+      "xp": 13000,
+      "type": "dragon",
+      "environments": ["forest"],
+      "tactics": "Prefers manipulation over combat, uses breath weapon from cover, targets spellcasters."
+    },
+    {
+      "name": "Adult Red Dragon",
+      "cr": "17",
+      "xp": 18000,
+      "type": "dragon",
+      "environments": ["mountain", "underground"],
+      "tactics": "Aggressive and proud, opens with breath weapon, uses legendary actions liberally."
+    },
+    {
+      "name": "Adult White Dragon",
+      "cr": "13",
+      "xp": 10000,
+      "type": "dragon",
+      "environments": ["arctic"],
+      "tactics": "Straightforward attacker, uses breath weapon and claws, retreats to lair if wounded."
+    },
+    {
+      "name": "Air Elemental",
+      "cr": "5",
+      "xp": 1800,
+      "type": "elemental",
+      "environments": ["mountain", "planar"],
+      "tactics": "Uses Whirlwind to scatter party, attacks prone targets, stays mobile."
+    },
+    {
+      "name": "Ancient Black Dragon",
+      "cr": "21",
+      "xp": 33000,
+      "type": "dragon",
+      "environments": ["swamp", "underground"],
+      "tactics": "Cunning and patient, uses lair actions, breath weapon, and legendary actions strategically."
+    },
+    {
+      "name": "Ancient Blue Dragon",
+      "cr": "23",
+      "xp": 50000,
+      "type": "dragon",
+      "environments": ["desert", "coastal"],
+      "tactics": "Master tactician, uses terrain and minions, saves breath weapon for grouped enemies."
+    },
+    {
+      "name": "Ancient Green Dragon",
+      "cr": "22",
+      "xp": 41000,
+      "type": "dragon",
+      "environments": ["forest"],
+      "tactics": "Prefers to corrupt rather than kill, uses minions and traps, breath weapon in confined spaces."
+    },
+    {
+      "name": "Ancient Red Dragon",
+      "cr": "24",
+      "xp": 62000,
+      "type": "dragon",
+      "environments": ["mountain", "underground"],
+      "tactics": "Supremely confident, devastating breath weapon, uses all legendary actions every round."
+    },
+    {
+      "name": "Ancient White Dragon",
+      "cr": "20",
+      "xp": 25000,
+      "type": "dragon",
+      "environments": ["arctic"],
+      "tactics": "Bestial and relentless, uses cold breath repeatedly, targets one enemy until dead."
+    },
+    {
+      "name": "Androsphinx",
+      "cr": "17",
+      "xp": 18000,
+      "type": "monstrosity",
+      "environments": ["desert", "ruins"],
+      "tactics": "Tests worthiness with riddles first, uses roar abilities to weaken, then melee."
+    },
+    {
+      "name": "Animated Armor",
+      "cr": "1",
+      "xp": 200,
+      "type": "construct",
+      "environments": ["dungeon", "ruins", "urban"],
+      "tactics": "Follows simple commands, attacks nearest enemy, fights until destroyed."
+    },
+    {
+      "name": "Ankheg",
+      "cr": "2",
+      "xp": 450,
+      "type": "monstrosity",
+      "environments": ["grassland", "forest"],
+      "tactics": "Burrows to ambush, grapples and drags prey underground, uses acid spray when surrounded."
+    },
+    {
+      "name": "Ape",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["forest", "jungle"],
+      "tactics": "Throws rocks from distance, uses multiattack in melee, flees when bloodied."
+    },
+    {
+      "name": "Archmage",
+      "cr": "12",
+      "xp": 8400,
+      "type": "humanoid",
+      "environments": ["urban", "tower", "dungeon"],
+      "tactics": "Opens with Time Stop if possible, uses control spells, teleports to safety if threatened."
+    },
+    {
+      "name": "Assassin",
+      "cr": "8",
+      "xp": 3900,
+      "type": "humanoid",
+      "environments": ["urban", "dungeon"],
+      "tactics": "Strikes from surprise for Assassinate, uses poison, flees if discovered."
+    },
+    {
+      "name": "Awakened Shrub",
+      "cr": "0",
+      "xp": 10,
+      "type": "plant",
+      "environments": ["forest", "swamp"],
+      "tactics": "Hides among normal plants, attacks when prey is close, flees easily."
+    },
+    {
+      "name": "Awakened Tree",
+      "cr": "2",
+      "xp": 450,
+      "type": "plant",
+      "environments": ["forest"],
+      "tactics": "Stands still until enemies approach, uses slam attacks, guards an area."
+    },
+    {
+      "name": "Axe Beak",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["grassland"],
+      "tactics": "Charges with beak attack, fights in packs, flees when alone."
+    },
+    {
+      "name": "Azer",
+      "cr": "2",
+      "xp": 450,
+      "type": "elemental",
+      "environments": ["planar", "underground"],
+      "tactics": "Uses heated body in grapples, attacks with warhammer, works with other azers."
+    },
+    {
+      "name": "Baboon",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Attacks in groups, uses Pack Tactics, flees when outnumbered."
+    },
+    {
+      "name": "Badger",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Burrows to escape, only fights if cornered."
+    },
+    {
+      "name": "Balor",
+      "cr": "19",
+      "xp": 22000,
+      "type": "fiend",
+      "environments": ["planar", "underground"],
+      "tactics": "Teleports into melee, uses whip to pull casters close, Death Throes makes it dangerous to kill."
+    },
+    {
+      "name": "Bandit",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "humanoid",
+      "environments": ["forest", "urban", "road"],
+      "tactics": "Attacks in groups, uses light crossbow at range, surrenders when losing badly."
+    },
+    {
+      "name": "Bandit Captain",
+      "cr": "2",
+      "xp": 450,
+      "type": "humanoid",
+      "environments": ["forest", "urban", "road"],
+      "tactics": "Commands bandits, uses multiattack, uses reaction to parry, bargains if losing."
+    },
+    {
+      "name": "Barbed Devil",
+      "cr": "5",
+      "xp": 1800,
+      "type": "fiend",
+      "environments": ["planar", "dungeon"],
+      "tactics": "Uses barbed hide in grapples, throws flames at range, fights defensively."
+    },
+    {
+      "name": "Basilisk",
+      "cr": "3",
+      "xp": 700,
+      "type": "monstrosity",
+      "environments": ["dungeon", "underground", "ruins"],
+      "tactics": "Uses petrifying gaze, attacks petrified creatures, guards territory."
+    },
+    {
+      "name": "Bat",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["underground", "forest"],
+      "tactics": "Swarms in groups, uses echolocation, flees from light."
+    },
+    {
+      "name": "Bearded Devil",
+      "cr": "3",
+      "xp": 700,
+      "type": "fiend",
+      "environments": ["planar", "dungeon"],
+      "tactics": "Aggressive melee combatant, uses beard to wound and infest, fights to the death."
+    },
+    {
+      "name": "Behir",
+      "cr": "11",
+      "xp": 7200,
+      "type": "monstrosity",
+      "environments": ["underground", "mountain"],
+      "tactics": "Constricts and swallows Medium creatures, uses lightning breath on groups, climbs walls."
+    },
+    {
+      "name": "Berserker",
+      "cr": "2",
+      "xp": 450,
+      "type": "humanoid",
+      "environments": ["arctic", "mountain", "grassland"],
+      "tactics": "Reckless attacks always, fights until dead, ignores tactics for pure aggression."
+    },
+    {
+      "name": "Black Bear",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["forest"],
+      "tactics": "Multiattack with bite and claws, defends cubs fiercely, otherwise avoids combat."
+    },
+    {
+      "name": "Black Dragon Wyrmling",
+      "cr": "2",
+      "xp": 450,
+      "type": "dragon",
+      "environments": ["swamp", "underground"],
+      "tactics": "Ambushes from water, uses breath weapon, flees to mother if badly hurt."
+    },
+    {
+      "name": "Black Pudding",
+      "cr": "4",
+      "xp": 1100,
+      "type": "ooze",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Splits when hit with slashing/lightning, dissolves metal and wood, mindless pursuit."
+    },
+    {
+      "name": "Blink Dog",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "fey",
+      "environments": ["forest", "grassland"],
+      "tactics": "Teleports to flank, uses pack tactics, retreats by blinking away."
+    },
+    {
+      "name": "Blood Hawk",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["mountain", "grassland", "coastal"],
+      "tactics": "Attacks in flocks, uses Pack Tactics, targets eyes and wounds."
+    },
+    {
+      "name": "Blue Dragon Wyrmling",
+      "cr": "3",
+      "xp": 700,
+      "type": "dragon",
+      "environments": ["desert", "coastal"],
+      "tactics": "Uses breath weapon from distance, burrows to escape, arrogant but cautious."
+    },
+    {
+      "name": "Boar",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Charges with tusks, uses Relentless to stay up, fights until dead."
+    },
+    {
+      "name": "Bone Devil",
+      "cr": "9",
+      "xp": 5000,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Uses sting to poison, casts invisibility to reposition, commands lesser devils."
+    },
+    {
+      "name": "Brown Bear",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["forest", "arctic"],
+      "tactics": "Multiattack with bite and claws, mauls prone targets, defends territory."
+    },
+    {
+      "name": "Bugbear",
+      "cr": "1",
+      "xp": 200,
+      "type": "humanoid",
+      "environments": ["forest", "underground", "dungeon"],
+      "tactics": "Surprise attacks for extra damage, uses reach with morningstar, bullies weaker foes."
+    },
+    {
+      "name": "Bulette",
+      "cr": "5",
+      "xp": 1800,
+      "type": "monstrosity",
+      "environments": ["grassland", "underground"],
+      "tactics": "Burrows to ambush, uses Deadly Leap on groups, retreats underground to heal."
+    },
+    {
+      "name": "Camel",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["desert"],
+      "tactics": "Bites in self-defense, used as mount, spits when annoyed."
+    },
+    {
+      "name": "Cat",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["urban", "forest"],
+      "tactics": "Scratches and flees, uses stealth and keen senses."
+    },
+    {
+      "name": "Centaur",
+      "cr": "2",
+      "xp": 450,
+      "type": "monstrosity",
+      "environments": ["forest", "grassland"],
+      "tactics": "Charges with pike, uses hooves on prone enemies, fights to protect territory."
+    },
+    {
+      "name": "Chain Devil",
+      "cr": "8",
+      "xp": 3900,
+      "type": "fiend",
+      "environments": ["planar", "dungeon"],
+      "tactics": "Uses chains to grapple multiple targets, animates nearby chains, sadistic combatant."
+    },
+    {
+      "name": "Chimera",
+      "cr": "6",
+      "xp": 2300,
+      "type": "monstrosity",
+      "environments": ["mountain", "grassland"],
+      "tactics": "Opens with fire breath, uses multiattack with all three heads, erratic behavior."
+    },
+    {
+      "name": "Chuul",
+      "cr": "4",
+      "xp": 1100,
+      "type": "aberration",
+      "environments": ["underwater", "swamp", "underground"],
+      "tactics": "Grapples with pincers, uses paralyzing tentacles, drags prey underwater."
+    },
+    {
+      "name": "Clay Golem",
+      "cr": "9",
+      "xp": 5000,
+      "type": "construct",
+      "environments": ["dungeon", "urban", "ruins"],
+      "tactics": "Follows commands exactly, uses Haste when available, immune to most magic."
+    },
+    {
+      "name": "Cloaker",
+      "cr": "8",
+      "xp": 3900,
+      "type": "aberration",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Disguises as cloak, attaches to victim, uses phantasms to confuse rescuers."
+    },
+    {
+      "name": "Cloud Giant",
+      "cr": "9",
+      "xp": 5000,
+      "type": "giant",
+      "environments": ["mountain", "sky"],
+      "tactics": "Throws rocks from above, uses morningstar in melee, casts fog cloud to escape."
+    },
+    {
+      "name": "Cockatrice",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "monstrosity",
+      "environments": ["grassland", "swamp"],
+      "tactics": "Pecks to petrify, attacks petrified victims, flees from groups."
+    },
+    {
+      "name": "Commoner",
+      "cr": "0",
+      "xp": 10,
+      "type": "humanoid",
+      "environments": ["urban", "rural", "road"],
+      "tactics": "Flees from combat, cries for help, uses improvised weapons if cornered."
+    },
+    {
+      "name": "Constrictor Snake",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["swamp", "forest", "jungle"],
+      "tactics": "Ambushes from concealment, constricts and squeezes, releases if badly hurt."
+    },
+    {
+      "name": "Couatl",
+      "cr": "4",
+      "xp": 1100,
+      "type": "celestial",
+      "environments": ["jungle", "ruins", "planar"],
+      "tactics": "Uses spells first, bites to poison, shapechanges to infiltrate or escape."
+    },
+    {
+      "name": "Crab",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["coastal", "underwater"],
+      "tactics": "Pinches in self-defense, hides in shells or sand."
+    },
+    {
+      "name": "Crocodile",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["swamp", "coastal", "jungle"],
+      "tactics": "Ambushes from water, grapples and drags prey underwater, death rolls."
+    },
+    {
+      "name": "Cult Fanatic",
+      "cr": "2",
+      "xp": 450,
+      "type": "humanoid",
+      "environments": ["urban", "dungeon", "temple"],
+      "tactics": "Casts hold person on threats, uses spiritual weapon, leads cultists."
+    },
+    {
+      "name": "Cultist",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "humanoid",
+      "environments": ["urban", "dungeon", "temple"],
+      "tactics": "Attacks in groups, follows fanatic's orders, fanatically loyal."
+    },
+    {
+      "name": "Darkmantle",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "monstrosity",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Uses darkness aura, drops onto prey, crushes and constricts."
+    },
+    {
+      "name": "Death Dog",
+      "cr": "1",
+      "xp": 200,
+      "type": "monstrosity",
+      "environments": ["desert", "underground"],
+      "tactics": "Uses two-headed advantage, disease-carrying bites, hunts in packs."
+    },
+    {
+      "name": "Deer",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Flees immediately, only bucks fight and only when cornered."
+    },
+    {
+      "name": "Deva",
+      "cr": "10",
+      "xp": 5900,
+      "type": "celestial",
+      "environments": ["planar", "temple"],
+      "tactics": "Uses Healing Touch on allies, smites evil with mace, casts raise dead on fallen good creatures."
+    },
+    {
+      "name": "Dire Wolf",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["forest", "arctic", "grassland"],
+      "tactics": "Uses Pack Tactics, knocks prone and savages, alpha leads pack."
+    },
+    {
+      "name": "Djinni",
+      "cr": "11",
+      "xp": 7200,
+      "type": "elemental",
+      "environments": ["desert", "planar"],
+      "tactics": "Creates whirlwind, uses scimitar with multiattack, grants wishes if bound."
+    },
+    {
+      "name": "Doppelganger",
+      "cr": "3",
+      "xp": 700,
+      "type": "monstrosity",
+      "environments": ["urban", "dungeon"],
+      "tactics": "Reads minds, impersonates party members, attacks surprised targets."
+    },
+    {
+      "name": "Draft Horse",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["urban", "rural", "grassland"],
+      "tactics": "Hooves in self-defense, panics and flees from fire or loud noises."
+    },
+    {
+      "name": "Dragon Turtle",
+      "cr": "17",
+      "xp": 18000,
+      "type": "dragon",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Uses steam breath on ships, capsizes vessels, demands tribute."
+    },
+    {
+      "name": "Dretch",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Swarms enemies, uses Fetid Cloud when surrounded, cowardly but numerous."
+    },
+    {
+      "name": "Drider",
+      "cr": "6",
+      "xp": 2300,
+      "type": "monstrosity",
+      "environments": ["underground"],
+      "tactics": "Uses web and darkness, attacks from ceiling, uses longbow at range."
+    },
+    {
+      "name": "Drow",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "humanoid",
+      "environments": ["underground"],
+      "tactics": "Uses darkness and faerie fire, poisoned crossbow bolts, fights dirty."
+    },
+    {
+      "name": "Druid",
+      "cr": "2",
+      "xp": 450,
+      "type": "humanoid",
+      "environments": ["forest", "swamp", "grassland"],
+      "tactics": "Wild shapes for combat or escape, uses entangle and thunderwave, protects nature."
+    },
+    {
+      "name": "Dryad",
+      "cr": "1",
+      "xp": 200,
+      "type": "fey",
+      "environments": ["forest"],
+      "tactics": "Uses charm on intruders, tree stride to escape, avoids direct combat."
+    },
+    {
+      "name": "Duergar",
+      "cr": "1",
+      "xp": 200,
+      "type": "humanoid",
+      "environments": ["underground"],
+      "tactics": "Enlarges for combat, uses invisibility to ambush, fights in formation."
+    },
+    {
+      "name": "Dust Mephit",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "elemental",
+      "environments": ["desert", "planar"],
+      "tactics": "Uses Blinding Breath, explodes on death, harasses and annoys."
+    },
+    {
+      "name": "Eagle",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["mountain", "grassland", "coastal"],
+      "tactics": "Dives and attacks, uses keen sight, flees when wounded."
+    },
+    {
+      "name": "Earth Elemental",
+      "cr": "5",
+      "xp": 1800,
+      "type": "elemental",
+      "environments": ["underground", "mountain", "planar"],
+      "tactics": "Earth glides through stone, uses siege monster trait, slams repeatedly."
+    },
+    {
+      "name": "Efreeti",
+      "cr": "11",
+      "xp": 7200,
+      "type": "elemental",
+      "environments": ["planar", "desert"],
+      "tactics": "Uses Hurl Flame at range, scimitar in melee, arrogant and tyrannical."
+    },
+    {
+      "name": "Elephant",
+      "cr": "4",
+      "xp": 1100,
+      "type": "beast",
+      "environments": ["grassland", "jungle"],
+      "tactics": "Tramples prone enemies, uses gore attack, protects herd."
+    },
+    {
+      "name": "Elk",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Charges with ram attack, knocks prone, bulls defend herd."
+    },
+    {
+      "name": "Erinyes",
+      "cr": "12",
+      "xp": 8400,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Uses longbow with poison, flies to stay mobile, focuses on corrupting mortals."
+    },
+    {
+      "name": "Ettercap",
+      "cr": "2",
+      "xp": 450,
+      "type": "monstrosity",
+      "environments": ["forest", "underground"],
+      "tactics": "Sets web traps, commands spiders, attacks webbed victims."
+    },
+    {
+      "name": "Ettin",
+      "cr": "4",
+      "xp": 1100,
+      "type": "giant",
+      "environments": ["mountain", "underground"],
+      "tactics": "Uses two-headed advantage, battleaxe and morningstar combo, argues with itself."
+    },
+    {
+      "name": "Fire Elemental",
+      "cr": "5",
+      "xp": 1800,
+      "type": "elemental",
+      "environments": ["planar", "volcanic"],
+      "tactics": "Ignites flammable objects, touches to set ablaze, vulnerable to water."
+    },
+    {
+      "name": "Fire Giant",
+      "cr": "9",
+      "xp": 5000,
+      "type": "giant",
+      "environments": ["mountain", "underground", "volcanic"],
+      "tactics": "Throws rocks or uses greatsword, commands troops militarily, fights with discipline."
+    },
+    {
+      "name": "Flesh Golem",
+      "cr": "5",
+      "xp": 1800,
+      "type": "construct",
+      "environments": ["dungeon", "urban"],
+      "tactics": "Berserk when damaged, immune to most spells, follows creator's orders."
+    },
+    {
+      "name": "Flying Snake",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["jungle", "forest"],
+      "tactics": "Flyby attacks, venomous bite, guards temples."
+    },
+    {
+      "name": "Flying Sword",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "construct",
+      "environments": ["dungeon", "ruins", "urban"],
+      "tactics": "Follows simple commands, slashes at nearest enemy, fights until destroyed."
+    },
+    {
+      "name": "Frog",
+      "cr": "0",
+      "xp": 0,
+      "type": "beast",
+      "environments": ["swamp", "forest"],
+      "tactics": "Hops away from danger, used as familiar."
+    },
+    {
+      "name": "Frost Giant",
+      "cr": "8",
+      "xp": 3900,
+      "type": "giant",
+      "environments": ["arctic", "mountain"],
+      "tactics": "Throws rocks, uses greataxe, raids and pillages, respects strength."
+    },
+    {
+      "name": "Gargoyle",
+      "cr": "2",
+      "xp": 450,
+      "type": "elemental",
+      "environments": ["urban", "dungeon", "ruins"],
+      "tactics": "Disguises as statue, ambushes, uses flight and multiattack."
+    },
+    {
+      "name": "Gelatinous Cube",
+      "cr": "2",
+      "xp": 450,
+      "type": "ooze",
+      "environments": ["dungeon", "underground"],
+      "tactics": "Slowly advances, engulfs creatures, mindlessly consumes."
+    },
+    {
+      "name": "Ghast",
+      "cr": "2",
+      "xp": 450,
+      "type": "undead",
+      "environments": ["dungeon", "underground", "graveyard"],
+      "tactics": "Uses stench to sicken, paralyzes with claws, leads ghouls."
+    },
+    {
+      "name": "Ghost",
+      "cr": "4",
+      "xp": 1100,
+      "type": "undead",
+      "environments": ["dungeon", "ruins", "graveyard", "urban"],
+      "tactics": "Uses Horrifying Visage, possesses the strongest PC, phases through walls."
+    },
+    {
+      "name": "Ghoul",
+      "cr": "1",
+      "xp": 200,
+      "type": "undead",
+      "environments": ["dungeon", "underground", "graveyard"],
+      "tactics": "Paralyzes with claws, feeds on paralyzed victims, hunts in packs."
+    },
+    {
+      "name": "Giant Ape",
+      "cr": "7",
+      "xp": 2900,
+      "type": "beast",
+      "environments": ["forest", "jungle"],
+      "tactics": "Throws rocks, uses multiattack with fists, territorial and aggressive."
+    },
+    {
+      "name": "Giant Badger",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Burrows to ambush, multiattack with bite and claws, fierce defender."
+    },
+    {
+      "name": "Giant Bat",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["underground", "forest"],
+      "tactics": "Swoops and bites, uses echolocation, flees from fire."
+    },
+    {
+      "name": "Giant Boar",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Charges with tusks, uses Relentless, fights until dead."
+    },
+    {
+      "name": "Giant Centipede",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["underground", "forest", "swamp"],
+      "tactics": "Bites with poison, climbs walls, swarms prey."
+    },
+    {
+      "name": "Giant Constrictor Snake",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["swamp", "jungle", "underground"],
+      "tactics": "Constricts and squeezes, drowns prey in water, ambushes from concealment."
+    },
+    {
+      "name": "Giant Crab",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["coastal", "underwater"],
+      "tactics": "Grapples with claws, drags prey underwater, guards territory."
+    },
+    {
+      "name": "Giant Crocodile",
+      "cr": "5",
+      "xp": 1800,
+      "type": "beast",
+      "environments": ["swamp", "coastal", "jungle"],
+      "tactics": "Ambushes from water, grapples with bite, drowns prey."
+    },
+    {
+      "name": "Giant Eagle",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["mountain", "grassland"],
+      "tactics": "Dives with talons, carries off small prey, intelligent enough to ally."
+    },
+    {
+      "name": "Giant Elk",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Charges with ram, tramples prone enemies, noble creature."
+    },
+    {
+      "name": "Giant Fire Beetle",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["underground"],
+      "tactics": "Bites in self-defense, glowing glands useful as light source."
+    },
+    {
+      "name": "Giant Frog",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["swamp", "forest"],
+      "tactics": "Swallows Small creatures, uses tongue to grapple, ambushes from water."
+    },
+    {
+      "name": "Giant Goat",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["mountain", "grassland"],
+      "tactics": "Charges with ram, Sure-Footed on cliffs, defends herd."
+    },
+    {
+      "name": "Giant Hyena",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["grassland", "desert"],
+      "tactics": "Uses Rampage to chain kills, hunts in packs, targets wounded prey."
+    },
+    {
+      "name": "Giant Lizard",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["underground", "swamp", "desert"],
+      "tactics": "Bites and holds, used as mount by kobolds, climbs walls."
+    },
+    {
+      "name": "Giant Octopus",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Grapples with tentacles, uses ink cloud to escape, drowns air-breathers."
+    },
+    {
+      "name": "Giant Owl",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["forest", "arctic"],
+      "tactics": "Flyby attacks with talons, silent flight, intelligent enough to scout."
+    },
+    {
+      "name": "Giant Poisonous Snake",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["swamp", "forest", "jungle"],
+      "tactics": "Strikes with poisonous bite, ambushes from hiding, flees when hurt."
+    },
+    {
+      "name": "Giant Rat",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["underground", "urban", "dungeon"],
+      "tactics": "Uses Pack Tactics, swarms in numbers, spreads disease."
+    },
+    {
+      "name": "Giant Scorpion",
+      "cr": "3",
+      "xp": 700,
+      "type": "beast",
+      "environments": ["desert", "underground"],
+      "tactics": "Grapples with claws, stings for poison, ambushes from sand."
+    },
+    {
+      "name": "Giant Sea Horse",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["underwater"],
+      "tactics": "Charges with ram, used as aquatic mount, flees from predators."
+    },
+    {
+      "name": "Giant Shark",
+      "cr": "5",
+      "xp": 1800,
+      "type": "beast",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Blood Frenzy advantage, bites and tears, relentless hunter."
+    },
+    {
+      "name": "Giant Spider",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["underground", "forest", "dungeon"],
+      "tactics": "Web restrains prey, venomous bite, spider climb for ambush."
+    },
+    {
+      "name": "Giant Toad",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["swamp", "forest"],
+      "tactics": "Swallows Medium creatures, uses standing leap to close distance."
+    },
+    {
+      "name": "Giant Vulture",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["desert", "grassland", "mountain"],
+      "tactics": "Uses Pack Tactics, circles and waits for weakness, multiattack."
+    },
+    {
+      "name": "Giant Wasp",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["forest", "grassland", "jungle"],
+      "tactics": "Stings for poison, guards hive aggressively, swarms intruders."
+    },
+    {
+      "name": "Giant Weasel",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Uses keen hearing and smell, bites and holds, drains blood."
+    },
+    {
+      "name": "Giant Wolf Spider",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["underground", "forest"],
+      "tactics": "Ambushes from walls, venomous bite, wraps prey in webbing."
+    },
+    {
+      "name": "Gibbering Mouther",
+      "cr": "2",
+      "xp": 450,
+      "type": "aberration",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Gibbering confuses nearby, blinding spittle, absorbs fallen enemies."
+    },
+    {
+      "name": "Glabrezu",
+      "cr": "9",
+      "xp": 5000,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Uses power word stun, grapples with pincers, tempts mortals with wishes."
+    },
+    {
+      "name": "Gladiator",
+      "cr": "5",
+      "xp": 1800,
+      "type": "humanoid",
+      "environments": ["urban", "arena"],
+      "tactics": "Uses shield bash to knock prone, multiattack with spear, Brave against fear."
+    },
+    {
+      "name": "Gnoll",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "humanoid",
+      "environments": ["grassland", "forest", "desert"],
+      "tactics": "Uses Rampage to chain attacks, hunts in packs, savage and hungry."
+    },
+    {
+      "name": "Goat",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["mountain", "grassland"],
+      "tactics": "Rams and flees, Sure-Footed on terrain."
+    },
+    {
+      "name": "Goblin",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "humanoid",
+      "environments": ["forest", "underground", "dungeon"],
+      "tactics": "Uses Nimble Escape, hit-and-run attacks, sets ambushes and traps."
+    },
+    {
+      "name": "Gorgon",
+      "cr": "5",
+      "xp": 1800,
+      "type": "monstrosity",
+      "environments": ["grassland", "dungeon"],
+      "tactics": "Charges with Trampling Charge, uses petrifying breath, relentless."
+    },
+    {
+      "name": "Gray Ooze",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "ooze",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Ambushes disguised as stone, corrodes metal armor and weapons."
+    },
+    {
+      "name": "Green Dragon Wyrmling",
+      "cr": "2",
+      "xp": 450,
+      "type": "dragon",
+      "environments": ["forest"],
+      "tactics": "Uses poison breath from concealment, manipulative even when young."
+    },
+    {
+      "name": "Green Hag",
+      "cr": "3",
+      "xp": 700,
+      "type": "fey",
+      "environments": ["forest", "swamp"],
+      "tactics": "Uses Illusory Appearance to trick, invisible to target, claws if cornered."
+    },
+    {
+      "name": "Grick",
+      "cr": "2",
+      "xp": 450,
+      "type": "monstrosity",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Ambushes from rocky areas, uses tentacles then beak, Stone Camouflage."
+    },
+    {
+      "name": "Griffon",
+      "cr": "2",
+      "xp": 450,
+      "type": "monstrosity",
+      "environments": ["mountain", "grassland"],
+      "tactics": "Dives from above, multiattack with beak and claws, defends nest fiercely."
+    },
+    {
+      "name": "Grimlock",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "humanoid",
+      "environments": ["underground"],
+      "tactics": "Uses blind senses, stone camouflage for ambush, fights in darkness."
+    },
+    {
+      "name": "Guard",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "humanoid",
+      "environments": ["urban", "dungeon", "road"],
+      "tactics": "Calls for backup, uses spear at range, fights in groups."
+    },
+    {
+      "name": "Guardian Naga",
+      "cr": "10",
+      "xp": 5900,
+      "type": "monstrosity",
+      "environments": ["ruins", "temple", "dungeon"],
+      "tactics": "Casts flame strike and hold person, uses poison spit, guards sacred places."
+    },
+    {
+      "name": "Gynosphinx",
+      "cr": "11",
+      "xp": 7200,
+      "type": "monstrosity",
+      "environments": ["desert", "ruins"],
+      "tactics": "Tests with riddles, uses legend lore for information, claw attacks if provoked."
+    },
+    {
+      "name": "Half-Red Dragon Veteran",
+      "cr": "5",
+      "xp": 1800,
+      "type": "humanoid",
+      "environments": ["mountain", "dungeon"],
+      "tactics": "Opens with fire breath, uses multiattack, leads other troops."
+    },
+    {
+      "name": "Harpy",
+      "cr": "1",
+      "xp": 200,
+      "type": "monstrosity",
+      "environments": ["coastal", "mountain", "forest"],
+      "tactics": "Uses Luring Song to charm, attacks charmed targets, fights dirty."
+    },
+    {
+      "name": "Hawk",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["mountain", "grassland", "forest"],
+      "tactics": "Dives and pecks, uses keen sight, flees when threatened."
+    },
+    {
+      "name": "Hell Hound",
+      "cr": "3",
+      "xp": 700,
+      "type": "fiend",
+      "environments": ["planar", "underground"],
+      "tactics": "Uses fire breath on groups, Pack Tactics with other hell hounds, relentless pursuit."
+    },
+    {
+      "name": "Hezrou",
+      "cr": "8",
+      "xp": 3900,
+      "type": "fiend",
+      "environments": ["planar", "swamp"],
+      "tactics": "Uses Stench aura, grapples and bites, brutal melee combatant."
+    },
+    {
+      "name": "Hill Giant",
+      "cr": "5",
+      "xp": 1800,
+      "type": "giant",
+      "environments": ["grassland", "mountain"],
+      "tactics": "Throws rocks, uses greatclub, stupid but strong, easily distracted by food."
+    },
+    {
+      "name": "Hippogriff",
+      "cr": "1",
+      "xp": 200,
+      "type": "monstrosity",
+      "environments": ["mountain", "grassland"],
+      "tactics": "Dives with talons, beak attacks, can be trained as mount."
+    },
+    {
+      "name": "Hobgoblin",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "humanoid",
+      "environments": ["grassland", "forest", "dungeon"],
+      "tactics": "Uses Martial Advantage with allies, fights in organized formations, disciplined."
+    },
+    {
+      "name": "Homunculus",
+      "cr": "0",
+      "xp": 10,
+      "type": "construct",
+      "environments": ["urban", "dungeon"],
+      "tactics": "Delivers touch spells for master, bite puts targets to sleep, telepathic link."
+    },
+    {
+      "name": "Horned Devil",
+      "cr": "11",
+      "xp": 7200,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Uses Hurl Flame at range, multiattack with fork and tail, relentless."
+    },
+    {
+      "name": "Hunter Shark",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Blood Frenzy gives advantage, bites and circles, hunts in packs."
+    },
+    {
+      "name": "Hydra",
+      "cr": "8",
+      "xp": 3900,
+      "type": "monstrosity",
+      "environments": ["swamp", "coastal"],
+      "tactics": "Multiple bite attacks, regrows heads, focus fire one head prevents growth."
+    },
+    {
+      "name": "Hyena",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["grassland", "desert"],
+      "tactics": "Pack Tactics with others, cowardly alone, scavenges."
+    },
+    {
+      "name": "Ice Devil",
+      "cr": "14",
+      "xp": 11500,
+      "type": "fiend",
+      "environments": ["planar", "arctic"],
+      "tactics": "Uses Wall of Ice tactically, cold aura damages nearby, spear multiattack."
+    },
+    {
+      "name": "Ice Mephit",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "elemental",
+      "environments": ["arctic", "planar"],
+      "tactics": "Uses Frost Breath, explodes on death, harasses from flight."
+    },
+    {
+      "name": "Imp",
+      "cr": "1",
+      "xp": 200,
+      "type": "fiend",
+      "environments": ["planar", "urban"],
+      "tactics": "Turns invisible, uses sting poison, serves as familiar, cowardly."
+    },
+    {
+      "name": "Invisible Stalker",
+      "cr": "6",
+      "xp": 2300,
+      "type": "elemental",
+      "environments": ["planar"],
+      "tactics": "Permanent invisibility, stalks assigned target relentlessly, slams repeatedly."
+    },
+    {
+      "name": "Iron Golem",
+      "cr": "16",
+      "xp": 15000,
+      "type": "construct",
+      "environments": ["dungeon", "urban"],
+      "tactics": "Uses Poison Breath, sword attacks, immune to most magic, follows orders."
+    },
+    {
+      "name": "Jackal",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["grassland", "desert"],
+      "tactics": "Pack Tactics, cowardly scavenger, flees from threats."
+    },
+    {
+      "name": "Killer Whale",
+      "cr": "3",
+      "xp": 700,
+      "type": "beast",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Echolocation to find prey, bites and thrashes, hunts in pods."
+    },
+    {
+      "name": "Knight",
+      "cr": "3",
+      "xp": 700,
+      "type": "humanoid",
+      "environments": ["urban", "grassland", "road"],
+      "tactics": "Uses Leadership, multiattack with greatsword, Brave against fear, mounted combat."
+    },
+    {
+      "name": "Kobold",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "humanoid",
+      "environments": ["underground", "dungeon", "forest"],
+      "tactics": "Uses Pack Tactics religiously, Sunlight Sensitivity weakness, sets traps."
+    },
+    {
+      "name": "Kraken",
+      "cr": "23",
+      "xp": 50000,
+      "type": "monstrosity",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Legendary actions every turn, grapples multiple targets, Lightning Storm devastates ships."
+    },
+    {
+      "name": "Lamia",
+      "cr": "4",
+      "xp": 1100,
+      "type": "monstrosity",
+      "environments": ["desert", "ruins"],
+      "tactics": "Uses Intoxicating Touch to charm, casts major image for deception, seductive predator."
+    },
+    {
+      "name": "Lemure",
+      "cr": "0",
+      "xp": 10,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Swarms enemies mindlessly, regenerates unless killed with good/silver, fodder."
+    },
+    {
+      "name": "Lich",
+      "cr": "21",
+      "xp": 33000,
+      "type": "undead",
+      "environments": ["dungeon", "ruins", "underground"],
+      "tactics": "Opens with Power Word Kill, uses legendary actions for cantrips, protects phylactery."
+    },
+    {
+      "name": "Lion",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["grassland", "desert"],
+      "tactics": "Pounces to knock prone, Pack Tactics with pride, Running Leap to close."
+    },
+    {
+      "name": "Lizard",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["swamp", "forest", "desert"],
+      "tactics": "Bites in self-defense, flees immediately."
+    },
+    {
+      "name": "Lizardfolk",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "humanoid",
+      "environments": ["swamp", "coastal"],
+      "tactics": "Uses multiattack, shields provide AC, fights to eat victims."
+    },
+    {
+      "name": "Mage",
+      "cr": "6",
+      "xp": 2300,
+      "type": "humanoid",
+      "environments": ["urban", "tower", "dungeon"],
+      "tactics": "Opens with cone of cold or fireball, uses shield and misty step defensively."
+    },
+    {
+      "name": "Magma Mephit",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "elemental",
+      "environments": ["volcanic", "planar"],
+      "tactics": "Uses Fire Breath, explodes on death, harasses from flight."
+    },
+    {
+      "name": "Magmin",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "elemental",
+      "environments": ["volcanic", "planar"],
+      "tactics": "Touch ignites flammables, Death Burst on death, swarms enemies."
+    },
+    {
+      "name": "Mammoth",
+      "cr": "6",
+      "xp": 2300,
+      "type": "beast",
+      "environments": ["arctic", "grassland"],
+      "tactics": "Trampling Charge prone, gore attack, protects herd."
+    },
+    {
+      "name": "Manticore",
+      "cr": "3",
+      "xp": 700,
+      "type": "monstrosity",
+      "environments": ["mountain", "grassland", "desert"],
+      "tactics": "Uses tail spikes at range, multiattack in melee, cruel hunter."
+    },
+    {
+      "name": "Marilith",
+      "cr": "16",
+      "xp": 15000,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Six sword multiattack, uses tail to grapple casters, teleports to reposition."
+    },
+    {
+      "name": "Mastiff",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["urban", "grassland", "forest"],
+      "tactics": "Knocks prone with bite, guards master, keen hearing and smell."
+    },
+    {
+      "name": "Medusa",
+      "cr": "6",
+      "xp": 2300,
+      "type": "monstrosity",
+      "environments": ["dungeon", "ruins", "urban"],
+      "tactics": "Uses Petrifying Gaze, snake hair for close range, longbow at distance."
+    },
+    {
+      "name": "Merfolk",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "humanoid",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Uses spear, amphibious mobility, fights in groups."
+    },
+    {
+      "name": "Merrow",
+      "cr": "2",
+      "xp": 450,
+      "type": "monstrosity",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Harpoons to drag prey, claws and bites, drowns air-breathers."
+    },
+    {
+      "name": "Mimic",
+      "cr": "2",
+      "xp": 450,
+      "type": "monstrosity",
+      "environments": ["dungeon", "underground", "ruins"],
+      "tactics": "Disguises as treasure chest, adhesive grapples, pseudopod attacks."
+    },
+    {
+      "name": "Minotaur",
+      "cr": "3",
+      "xp": 700,
+      "type": "monstrosity",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Charges to gore, uses Labyrinthine Recall, relentless pursuit in maze."
+    },
+    {
+      "name": "Minotaur Skeleton",
+      "cr": "2",
+      "xp": 450,
+      "type": "undead",
+      "environments": ["dungeon", "underground"],
+      "tactics": "Charges to gore, mindless combatant, follows creator's commands."
+    },
+    {
+      "name": "Mule",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["urban", "rural", "mountain"],
+      "tactics": "Kicks in self-defense, Sure-Footed on terrain, beast of burden."
+    },
+    {
+      "name": "Mummy",
+      "cr": "3",
+      "xp": 700,
+      "type": "undead",
+      "environments": ["dungeon", "ruins", "desert"],
+      "tactics": "Uses Dreadful Glare to frighten, rotting fist curse, guards tombs."
+    },
+    {
+      "name": "Mummy Lord",
+      "cr": "15",
+      "xp": 13000,
+      "type": "undead",
+      "environments": ["dungeon", "ruins", "desert"],
+      "tactics": "Casts insect plague and harm, uses legendary actions, heart must be destroyed."
+    },
+    {
+      "name": "Nalfeshnee",
+      "cr": "13",
+      "xp": 10000,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Uses Horror Nimbus, multiattack with claws and bite, judges and torments."
+    },
+    {
+      "name": "Night Hag",
+      "cr": "5",
+      "xp": 1800,
+      "type": "fiend",
+      "environments": ["planar", "swamp", "underground"],
+      "tactics": "Haunts dreams to kill, uses heartstone to become ethereal, trades soul larvae."
+    },
+    {
+      "name": "Nightmare",
+      "cr": "3",
+      "xp": 700,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Ethereal stride to escape, flaming hooves, serves evil riders."
+    },
+    {
+      "name": "Noble",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "humanoid",
+      "environments": ["urban"],
+      "tactics": "Commands guards, uses rapier if cornered, flees or negotiates."
+    },
+    {
+      "name": "Ochre Jelly",
+      "cr": "2",
+      "xp": 450,
+      "type": "ooze",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Splits when hit with slashing/lightning, dissolves organics, mindless."
+    },
+    {
+      "name": "Octopus",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Grapples with tentacles, ink cloud to escape."
+    },
+    {
+      "name": "Ogre",
+      "cr": "2",
+      "xp": 450,
+      "type": "giant",
+      "environments": ["grassland", "forest", "mountain"],
+      "tactics": "Throws javelins, uses greatclub, stupid and greedy."
+    },
+    {
+      "name": "Ogre Zombie",
+      "cr": "2",
+      "xp": 450,
+      "type": "undead",
+      "environments": ["dungeon", "graveyard"],
+      "tactics": "Uses Undead Fortitude to stay up, morningstar attacks, mindless."
+    },
+    {
+      "name": "Oni",
+      "cr": "7",
+      "xp": 2900,
+      "type": "giant",
+      "environments": ["forest", "urban", "mountain"],
+      "tactics": "Shapechanges to infiltrate, uses cone of cold, regenerates."
+    },
+    {
+      "name": "Orc",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "humanoid",
+      "environments": ["mountain", "forest", "underground"],
+      "tactics": "Uses Aggressive to close distance, greataxe attacks, savage and violent."
+    },
+    {
+      "name": "Otyugh",
+      "cr": "5",
+      "xp": 1800,
+      "type": "aberration",
+      "environments": ["underground", "dungeon", "urban"],
+      "tactics": "Grapples with tentacles, bites for disease, ambushes from refuse."
+    },
+    {
+      "name": "Owl",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["forest"],
+      "tactics": "Flyby attack, silent flight, used as familiar."
+    },
+    {
+      "name": "Owlbear",
+      "cr": "3",
+      "xp": 700,
+      "type": "monstrosity",
+      "environments": ["forest"],
+      "tactics": "Multiattack with beak and claws, savage and territorial, guards nest."
+    },
+    {
+      "name": "Panther",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["forest", "grassland", "jungle"],
+      "tactics": "Pounces to knock prone, uses stealth to ambush."
+    },
+    {
+      "name": "Pegasus",
+      "cr": "2",
+      "xp": 450,
+      "type": "celestial",
+      "environments": ["grassland", "mountain"],
+      "tactics": "Flies to stay mobile, hooves attack, serves good riders."
+    },
+    {
+      "name": "Phase Spider",
+      "cr": "3",
+      "xp": 700,
+      "type": "monstrosity",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Phases from Ethereal to attack, venomous bite, phases out to escape."
+    },
+    {
+      "name": "Pit Fiend",
+      "cr": "20",
+      "xp": 25000,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Uses Fear Aura, multiattack with all weapons, commands devils."
+    },
+    {
+      "name": "Planetar",
+      "cr": "16",
+      "xp": 15000,
+      "type": "celestial",
+      "environments": ["planar"],
+      "tactics": "Uses divine awareness, greatsword with radiant damage, heals allies."
+    },
+    {
+      "name": "Plesiosaurus",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Bites from long neck, drags prey underwater, holds breath."
+    },
+    {
+      "name": "Poisonous Snake",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["swamp", "forest", "grassland"],
+      "tactics": "Strikes with poison, flees if threatened."
+    },
+    {
+      "name": "Polar Bear",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["arctic"],
+      "tactics": "Multiattack with bite and claws, keen smell, powerful swimmer."
+    },
+    {
+      "name": "Pony",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["urban", "grassland"],
+      "tactics": "Hooves in self-defense, used as mount for small creatures."
+    },
+    {
+      "name": "Priest",
+      "cr": "2",
+      "xp": 450,
+      "type": "humanoid",
+      "environments": ["urban", "temple"],
+      "tactics": "Casts spirit guardians, uses healing, leads religious services."
+    },
+    {
+      "name": "Pseudodragon",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "dragon",
+      "environments": ["forest", "urban"],
+      "tactics": "Stings to put enemies to sleep, telepathic bond with master, timid."
+    },
+    {
+      "name": "Purple Worm",
+      "cr": "15",
+      "xp": 13000,
+      "type": "monstrosity",
+      "environments": ["underground"],
+      "tactics": "Swallows creatures whole, tail stinger poison, tunnels through rock."
+    },
+    {
+      "name": "Quasit",
+      "cr": "1",
+      "xp": 200,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Turns invisible, uses Scare, shapeshifts to escape, serves as familiar."
+    },
+    {
+      "name": "Quipper",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["underwater"],
+      "tactics": "Blood Frenzy in swarms, bites in feeding frenzy."
+    },
+    {
+      "name": "Rakshasa",
+      "cr": "13",
+      "xp": 10000,
+      "type": "fiend",
+      "environments": ["urban", "planar"],
+      "tactics": "Disguises self, uses charm person, immune to low-level spells, manipulator."
+    },
+    {
+      "name": "Rat",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["urban", "underground"],
+      "tactics": "Swarms in numbers, spreads disease, flees alone."
+    },
+    {
+      "name": "Raven",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["forest", "urban", "swamp"],
+      "tactics": "Mimics sounds, used as familiar, flees from combat."
+    },
+    {
+      "name": "Red Dragon Wyrmling",
+      "cr": "4",
+      "xp": 1100,
+      "type": "dragon",
+      "environments": ["mountain", "underground"],
+      "tactics": "Uses fire breath, arrogant, collects treasure even when young."
+    },
+    {
+      "name": "Reef Shark",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Pack Tactics with other sharks, bites wounded prey."
+    },
+    {
+      "name": "Remorhaz",
+      "cr": "11",
+      "xp": 7200,
+      "type": "monstrosity",
+      "environments": ["arctic"],
+      "tactics": "Heated body burns attackers, swallows prey, tunnels through ice."
+    },
+    {
+      "name": "Rhinoceros",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["grassland"],
+      "tactics": "Charges with gore, prone targets get trampled, territorial."
+    },
+    {
+      "name": "Riding Horse",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["urban", "grassland"],
+      "tactics": "Hooves in self-defense, standard mount."
+    },
+    {
+      "name": "Roc",
+      "cr": "11",
+      "xp": 7200,
+      "type": "monstrosity",
+      "environments": ["mountain"],
+      "tactics": "Dives to grapple, carries prey to nest, massive and territorial."
+    },
+    {
+      "name": "Roper",
+      "cr": "5",
+      "xp": 1800,
+      "type": "monstrosity",
+      "environments": ["underground", "dungeon"],
+      "tactics": "False Appearance as stalagmite, tendrils grapple and reel in, bites grappled prey."
+    },
+    {
+      "name": "Rug of Smothering",
+      "cr": "2",
+      "xp": 450,
+      "type": "construct",
+      "environments": ["dungeon", "urban"],
+      "tactics": "Antimagic Susceptibility, grapples and smothers, appears as normal rug."
+    },
+    {
+      "name": "Rust Monster",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "monstrosity",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Rusts metal equipment on touch, targets armored foes, not aggressive."
+    },
+    {
+      "name": "Saber-Toothed Tiger",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["arctic", "grassland"],
+      "tactics": "Pounces to knock prone, savage bite, pack hunter."
+    },
+    {
+      "name": "Sahuagin",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "humanoid",
+      "environments": ["underwater", "coastal"],
+      "tactics": "Blood Frenzy advantage, multiattack, fights in groups."
+    },
+    {
+      "name": "Salamander",
+      "cr": "5",
+      "xp": 1800,
+      "type": "elemental",
+      "environments": ["planar", "volcanic"],
+      "tactics": "Heated body burns grapplers, spear and tail attacks, forces slaves to serve."
+    },
+    {
+      "name": "Satyr",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "fey",
+      "environments": ["forest"],
+      "tactics": "Uses ram charge, plays pipes for magic, avoids serious combat."
+    },
+    {
+      "name": "Scorpion",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["desert"],
+      "tactics": "Stings in self-defense, hides under rocks."
+    },
+    {
+      "name": "Scout",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "humanoid",
+      "environments": ["forest", "grassland", "mountain"],
+      "tactics": "Uses longbow from range, multiattack, flees to report."
+    },
+    {
+      "name": "Sea Hag",
+      "cr": "2",
+      "xp": 450,
+      "type": "fey",
+      "environments": ["underwater", "coastal", "swamp"],
+      "tactics": "Uses Horrific Appearance to frighten, Death Glare kills frightened targets."
+    },
+    {
+      "name": "Sea Horse",
+      "cr": "0",
+      "xp": 0,
+      "type": "beast",
+      "environments": ["underwater"],
+      "tactics": "Flees from danger, no combat ability."
+    },
+    {
+      "name": "Shadow",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "undead",
+      "environments": ["dungeon", "underground", "ruins"],
+      "tactics": "Strength Drain creates new shadows, hides in darkness, vulnerable to radiant."
+    },
+    {
+      "name": "Shambling Mound",
+      "cr": "5",
+      "xp": 1800,
+      "type": "plant",
+      "environments": ["swamp", "forest"],
+      "tactics": "Engulfs and suffocates, absorbs lightning, relentless pursuit."
+    },
+    {
+      "name": "Shield Guardian",
+      "cr": "7",
+      "xp": 2900,
+      "type": "construct",
+      "environments": ["dungeon", "urban"],
+      "tactics": "Guards master, stores spells, shield reaction protects master."
+    },
+    {
+      "name": "Shrieker",
+      "cr": "0",
+      "xp": 10,
+      "type": "plant",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Shrieks to alert other creatures, no attacks, dies easily."
+    },
+    {
+      "name": "Silver Dragon Wyrmling",
+      "cr": "2",
+      "xp": 450,
+      "type": "dragon",
+      "environments": ["mountain", "arctic"],
+      "tactics": "Uses cold breath, friendly to humanoids, curious about mortals."
+    },
+    {
+      "name": "Skeleton",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "undead",
+      "environments": ["dungeon", "underground", "graveyard"],
+      "tactics": "Uses shortbow or sword, follows commands, mindless."
+    },
+    {
+      "name": "Solar",
+      "cr": "21",
+      "xp": 33000,
+      "type": "celestial",
+      "environments": ["planar"],
+      "tactics": "Uses Slaying Longbow, legendary resistance, Flying Sword attacks, heals allies."
+    },
+    {
+      "name": "Specter",
+      "cr": "1",
+      "xp": 200,
+      "type": "undead",
+      "environments": ["dungeon", "ruins", "graveyard"],
+      "tactics": "Life Drain creates more specters, incorporeal movement, sunlight sensitivity."
+    },
+    {
+      "name": "Spider",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["underground", "forest"],
+      "tactics": "Web Sense detects prey, bites in self-defense."
+    },
+    {
+      "name": "Spirit Naga",
+      "cr": "8",
+      "xp": 3900,
+      "type": "monstrosity",
+      "environments": ["dungeon", "ruins", "underground"],
+      "tactics": "Casts lightning bolt, uses charm person, bite with poison."
+    },
+    {
+      "name": "Sprite",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "fey",
+      "environments": ["forest"],
+      "tactics": "Uses Heart Sight, invisible, poison arrows to sleep."
+    },
+    {
+      "name": "Spy",
+      "cr": "1",
+      "xp": 200,
+      "type": "humanoid",
+      "environments": ["urban"],
+      "tactics": "Sneak Attack from hiding, uses Cunning Action, gathers information."
+    },
+    {
+      "name": "Steam Mephit",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "elemental",
+      "environments": ["planar", "volcanic"],
+      "tactics": "Uses Steam Breath, explodes on death, harasses from flight."
+    },
+    {
+      "name": "Stirge",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "beast",
+      "environments": ["underground", "forest", "swamp"],
+      "tactics": "Attaches and drains blood, swarms prey, detaches when full."
+    },
+    {
+      "name": "Stone Giant",
+      "cr": "7",
+      "xp": 2900,
+      "type": "giant",
+      "environments": ["mountain", "underground"],
+      "tactics": "Throws rocks from range, greatclub in melee, catches rocks thrown at it."
+    },
+    {
+      "name": "Stone Golem",
+      "cr": "10",
+      "xp": 5900,
+      "type": "construct",
+      "environments": ["dungeon", "urban"],
+      "tactics": "Uses Slow when active, multiattack with slam, immune to most magic."
+    },
+    {
+      "name": "Storm Giant",
+      "cr": "13",
+      "xp": 10000,
+      "type": "giant",
+      "environments": ["coastal", "underwater", "mountain"],
+      "tactics": "Uses Lightning Strike, greatsword multiattack, controls weather."
+    },
+    {
+      "name": "Succubus/Incubus",
+      "cr": "4",
+      "xp": 1100,
+      "type": "fiend",
+      "environments": ["planar", "urban"],
+      "tactics": "Charms with Etherealness escape, draining kiss, corrupts mortals."
+    },
+    {
+      "name": "Swarm of Bats",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["underground", "forest"],
+      "tactics": "Swarm resistance, bites in mass, flees from bright light."
+    },
+    {
+      "name": "Swarm of Insects",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["swamp", "forest", "underground"],
+      "tactics": "Swarm resistance, bites in mass, hard to kill conventionally."
+    },
+    {
+      "name": "Swarm of Poisonous Snakes",
+      "cr": "2",
+      "xp": 450,
+      "type": "beast",
+      "environments": ["swamp", "forest"],
+      "tactics": "Swarm resistance, multiple poisonous bites."
+    },
+    {
+      "name": "Swarm of Quippers",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["underwater"],
+      "tactics": "Blood Frenzy, swarm resistance, feeding frenzy."
+    },
+    {
+      "name": "Swarm of Rats",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["urban", "underground"],
+      "tactics": "Swarm resistance, spreads disease, overwhelms with numbers."
+    },
+    {
+      "name": "Swarm of Ravens",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Swarm resistance, pecks and claws, flees when damaged."
+    },
+    {
+      "name": "Tarrasque",
+      "cr": "30",
+      "xp": 155000,
+      "type": "monstrosity",
+      "environments": ["any"],
+      "tactics": "Unstoppable destruction, legendary actions every turn, reflects magic, devours everything."
+    },
+    {
+      "name": "Thug",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "humanoid",
+      "environments": ["urban"],
+      "tactics": "Uses Pack Tactics, multiattack with mace, intimidates victims."
+    },
+    {
+      "name": "Tiger",
+      "cr": "1",
+      "xp": 200,
+      "type": "beast",
+      "environments": ["forest", "grassland", "jungle"],
+      "tactics": "Pounces to knock prone, stealth ambush, solitary hunter."
+    },
+    {
+      "name": "Treant",
+      "cr": "9",
+      "xp": 5000,
+      "type": "plant",
+      "environments": ["forest"],
+      "tactics": "Animates trees, slam attacks, throws rocks, guards ancient forests."
+    },
+    {
+      "name": "Tribal Warrior",
+      "cr": "1/8",
+      "xp": 25,
+      "type": "humanoid",
+      "environments": ["forest", "grassland", "mountain", "jungle"],
+      "tactics": "Uses Pack Tactics, spear attacks, defends tribe."
+    },
+    {
+      "name": "Triceratops",
+      "cr": "5",
+      "xp": 1800,
+      "type": "beast",
+      "environments": ["grassland"],
+      "tactics": "Trampling Charge prone, gore with horns, defends herd."
+    },
+    {
+      "name": "Troll",
+      "cr": "5",
+      "xp": 1800,
+      "type": "giant",
+      "environments": ["mountain", "forest", "swamp", "underground"],
+      "tactics": "Regenerates constantly, multiattack with claws and bite, fire/acid stops regen."
+    },
+    {
+      "name": "Tyrannosaurus Rex",
+      "cr": "8",
+      "xp": 3900,
+      "type": "beast",
+      "environments": ["grassland", "jungle"],
+      "tactics": "Multiattack with bite and tail, bite grapples, apex predator."
+    },
+    {
+      "name": "Unicorn",
+      "cr": "5",
+      "xp": 1800,
+      "type": "celestial",
+      "environments": ["forest"],
+      "tactics": "Uses Healing Touch, legendary actions to teleport, protects forest."
+    },
+    {
+      "name": "Vampire",
+      "cr": "13",
+      "xp": 10000,
+      "type": "undead",
+      "environments": ["urban", "dungeon", "underground"],
+      "tactics": "Charms targets, uses legendary actions, regenerates, summons minions."
+    },
+    {
+      "name": "Vampire Spawn",
+      "cr": "5",
+      "xp": 1800,
+      "type": "undead",
+      "environments": ["urban", "dungeon", "underground"],
+      "tactics": "Claws and bite, regenerates, serves master vampire."
+    },
+    {
+      "name": "Veteran",
+      "cr": "3",
+      "xp": 700,
+      "type": "humanoid",
+      "environments": ["urban", "road", "dungeon"],
+      "tactics": "Uses multiattack, longsword and shortsword combo, experienced fighter."
+    },
+    {
+      "name": "Violet Fungus",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "plant",
+      "environments": ["underground", "dungeon"],
+      "tactics": "Rotting Touch necrotic damage, disguises among normal fungi."
+    },
+    {
+      "name": "Vrock",
+      "cr": "6",
+      "xp": 2300,
+      "type": "fiend",
+      "environments": ["planar"],
+      "tactics": "Uses Stunning Screech, multiattack with beak and talons, spores sicken."
+    },
+    {
+      "name": "Vulture",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["desert", "grassland"],
+      "tactics": "Pack Tactics, scavenges corpses, cowardly."
+    },
+    {
+      "name": "Warhorse",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "beast",
+      "environments": ["grassland", "urban"],
+      "tactics": "Trampling Charge prone, trained for war, serves rider."
+    },
+    {
+      "name": "Warhorse Skeleton",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "undead",
+      "environments": ["dungeon", "graveyard"],
+      "tactics": "Hooves attack, undead mount, follows commands."
+    },
+    {
+      "name": "Water Elemental",
+      "cr": "5",
+      "xp": 1800,
+      "type": "elemental",
+      "environments": ["underwater", "coastal", "planar"],
+      "tactics": "Whelm engulfs targets, slam attacks, controls water."
+    },
+    {
+      "name": "Weasel",
+      "cr": "0",
+      "xp": 10,
+      "type": "beast",
+      "environments": ["forest", "grassland"],
+      "tactics": "Keen hearing and smell, flees from threats."
+    },
+    {
+      "name": "Werebear",
+      "cr": "5",
+      "xp": 1800,
+      "type": "humanoid",
+      "environments": ["forest", "arctic"],
+      "tactics": "Hybrid form for multiattack, curse spreads lycanthropy, good-aligned."
+    },
+    {
+      "name": "Wereboar",
+      "cr": "4",
+      "xp": 1100,
+      "type": "humanoid",
+      "environments": ["forest", "grassland"],
+      "tactics": "Charges in boar form, multiattack in hybrid, relentless."
+    },
+    {
+      "name": "Wererat",
+      "cr": "2",
+      "xp": 450,
+      "type": "humanoid",
+      "environments": ["urban", "underground"],
+      "tactics": "Hand crossbow at range, bite spreads lycanthropy, sneaky."
+    },
+    {
+      "name": "Weretiger",
+      "cr": "4",
+      "xp": 1100,
+      "type": "humanoid",
+      "environments": ["forest", "grassland", "jungle"],
+      "tactics": "Pounces in cat form, multiattack in hybrid, solitary."
+    },
+    {
+      "name": "Werewolf",
+      "cr": "3",
+      "xp": 700,
+      "type": "humanoid",
+      "environments": ["forest", "grassland"],
+      "tactics": "Multiattack with claws and bite, spreads lycanthropy, pack hunter."
+    },
+    {
+      "name": "White Dragon Wyrmling",
+      "cr": "2",
+      "xp": 450,
+      "type": "dragon",
+      "environments": ["arctic"],
+      "tactics": "Uses cold breath, savage and bestial, hoards treasure."
+    },
+    {
+      "name": "Wight",
+      "cr": "3",
+      "xp": 700,
+      "type": "undead",
+      "environments": ["dungeon", "graveyard", "underground"],
+      "tactics": "Life Drain creates zombies, uses longsword, commands lesser undead."
+    },
+    {
+      "name": "Will-o'-Wisp",
+      "cr": "2",
+      "xp": 450,
+      "type": "undead",
+      "environments": ["swamp", "forest"],
+      "tactics": "Lures prey with light, Shock on unconscious targets, Consume Life ability."
+    },
+    {
+      "name": "Winter Wolf",
+      "cr": "3",
+      "xp": 700,
+      "type": "monstrosity",
+      "environments": ["arctic"],
+      "tactics": "Uses Cold Breath on groups, Pack Tactics, intelligent hunter."
+    },
+    {
+      "name": "Wolf",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "beast",
+      "environments": ["forest", "grassland", "arctic"],
+      "tactics": "Pack Tactics for advantage, prone with bite, hunts in packs."
+    },
+    {
+      "name": "Worg",
+      "cr": "1/2",
+      "xp": 100,
+      "type": "monstrosity",
+      "environments": ["forest", "grassland"],
+      "tactics": "Used as goblin mount, bites and knocks prone, evil and intelligent."
+    },
+    {
+      "name": "Wraith",
+      "cr": "5",
+      "xp": 1800,
+      "type": "undead",
+      "environments": ["dungeon", "graveyard", "underground"],
+      "tactics": "Life Drain creates specters, incorporeal, sunlight sensitivity."
+    },
+    {
+      "name": "Wyvern",
+      "cr": "6",
+      "xp": 2300,
+      "type": "dragon",
+      "environments": ["mountain", "grassland"],
+      "tactics": "Multiattack with bite, claws, and stinger, poisonous sting, aggressive."
+    },
+    {
+      "name": "Xorn",
+      "cr": "5",
+      "xp": 1800,
+      "type": "elemental",
+      "environments": ["underground", "planar"],
+      "tactics": "Earth Glide ambush, multiattack with claws and bite, demands gems."
+    },
+    {
+      "name": "Young Black Dragon",
+      "cr": "7",
+      "xp": 2900,
+      "type": "dragon",
+      "environments": ["swamp", "underground"],
+      "tactics": "Uses acid breath, ambushes from murky water, cruel and cunning."
+    },
+    {
+      "name": "Young Blue Dragon",
+      "cr": "9",
+      "xp": 5000,
+      "type": "dragon",
+      "environments": ["desert", "coastal"],
+      "tactics": "Uses lightning breath in lines, burrows to ambush, vain and territorial."
+    },
+    {
+      "name": "Young Green Dragon",
+      "cr": "8",
+      "xp": 3900,
+      "type": "dragon",
+      "environments": ["forest"],
+      "tactics": "Uses poison breath, manipulates before fighting, cunning schemer."
+    },
+    {
+      "name": "Young Red Dragon",
+      "cr": "10",
+      "xp": 5900,
+      "type": "dragon",
+      "environments": ["mountain", "underground"],
+      "tactics": "Uses fire breath, arrogant and aggressive, hoards treasure."
+    },
+    {
+      "name": "Young White Dragon",
+      "cr": "6",
+      "xp": 2300,
+      "type": "dragon",
+      "environments": ["arctic"],
+      "tactics": "Uses cold breath, savage and bestial, dim but vicious."
+    },
+    {
+      "name": "Zombie",
+      "cr": "1/4",
+      "xp": 50,
+      "type": "undead",
+      "environments": ["dungeon", "graveyard", "urban"],
+      "tactics": "Undead Fortitude keeps it up, mindless attacker, slow but relentless."
+    }
+  ]
+}

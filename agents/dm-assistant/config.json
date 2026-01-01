@@ -1,0 +1,53 @@
+{
+  "agent_name": "dm-assistant",
+  "version": "1.0.0",
+  "description": "Real-time DM support for D&D 5e sessions",
+
+  "settings": {
+    "response_length": "short",
+    "tone": "direct",
+    "rules_system": "dnd5e",
+    "ruling_style": "rule_of_cool",
+    "verbosity": "minimal"
+  },
+
+  "capabilities": [
+    "rules_clarification",
+    "npc_generation",
+    "improvisation",
+    "encounter_management",
+    "plot_hooks",
+    "tactical_advice"
+  ],
+
+  "response_templates": {
+    "rules_question": ["ruling", "raw_reference", "suggestion"],
+    "npc_quick": ["name", "race_role", "personality", "wants", "voice"],
+    "improvisation": ["option_1", "option_2", "option_3", "complication"],
+    "encounter_fix": ["problem", "fix", "narrative_cover"],
+    "tactics": ["priorities", "positioning", "personality"]
+  },
+
+  "context_fields": {
+    "optional": [
+      "party_composition",
+      "party_level",
+      "current_location",
+      "active_npcs",
+      "combat_state",
+      "campaign_tone",
+      "recent_events"
+    ]
+  },
+
+  "quick_commands": {
+    "npc": "Generate a quick NPC with name, personality, motivation",
+    "ruling": "Quick rules adjudication",
+    "improv": "Improvisation options for unexpected situation",
+    "tactics": "Monster tactics and behavior",
+    "hook": "Plot hook to move things forward",
+    "save": "Options to prevent TPK without cheapening stakes"
+  },
+
+  "tags": ["dnd", "5e", "dm-tools", "real-time", "improvisation"]
+}

@@ -1,0 +1,158 @@
+{
+  "agent_name": "world-builder",
+  "version": "1.0.0",
+  "description": "On-the-fly world generation for D&D 5e sessions",
+
+  "settings": {
+    "response_length": "concise",
+    "default_tone": "heroic",
+    "default_scale": "local",
+    "include_hooks": true,
+    "include_secrets": true,
+    "sensory_details": true
+  },
+
+  "generation_types": {
+    "location": {
+      "subtypes": ["tavern", "dungeon", "city", "district", "wilderness", "shop", "temple", "ruins", "lair", "home"],
+      "format": ["name", "atmosphere", "notable_feature", "whos_here", "secret", "hook"],
+      "max_initial_length": "8 lines"
+    },
+    "faction": {
+      "subtypes": ["guild", "cult", "order", "gang", "government", "merchant", "military", "secret_society"],
+      "format": ["name", "type", "symbol", "goals", "methods", "leader", "conflict", "hook"],
+      "max_initial_length": "10 lines"
+    },
+    "history": {
+      "subtypes": ["event", "legend", "origin", "war", "disaster", "founding", "fall"],
+      "format": ["name", "when", "what_happened", "evidence_today", "truth_vs_legend", "hook"],
+      "max_initial_length": "8 lines"
+    },
+    "plot_hook": {
+      "subtypes": ["quest", "mystery", "threat", "opportunity", "personal", "political"],
+      "format": ["title", "premise", "twist", "stakes", "reward", "escalation"],
+      "max_initial_length": "6 lines"
+    },
+    "region": {
+      "subtypes": ["wilderness", "territory", "kingdom", "continent", "plane"],
+      "format": ["name", "terrain", "landmarks", "inhabitants", "danger", "resources", "rumors"],
+      "max_initial_length": "10 lines"
+    },
+    "weather": {
+      "subtypes": ["daily", "multi_day", "storm", "magical", "seasonal"],
+      "format": ["conditions", "travel_impact", "encounter_modifier", "opportunity", "complication"],
+      "max_initial_length": "6 lines"
+    },
+    "rumor": {
+      "subtypes": ["tavern_talk", "street_gossip", "merchant_news", "noble_whispers", "criminal_intel"],
+      "format": ["rumor_text", "source", "truth_level", "investigation", "leads_to"],
+      "max_initial_length": "4 lines"
+    }
+  },
+
+  "tone_settings": {
+    "gritty": {
+      "description": "Low fantasy, morally gray, harsh conditions",
+      "naming_style": "Anglo-Saxon, Germanic, grounded",
+      "magic_level": "rare",
+      "themes": ["survival", "politics", "moral_ambiguity", "scarcity"],
+      "avoid": ["clear_heroes", "easy_solutions", "abundant_magic"]
+    },
+    "heroic": {
+      "description": "High fantasy, epic scope, wondrous locations",
+      "naming_style": "Tolkien-esque, flowing, epic",
+      "magic_level": "common",
+      "themes": ["good_vs_evil", "destiny", "wonder", "sacrifice"],
+      "avoid": ["nihilism", "pointless_suffering", "anticlimactic"]
+    },
+    "whimsical": {
+      "description": "Comedic, absurd situations, playful",
+      "naming_style": "Punny, alliterative, fun to say",
+      "magic_level": "abundant_and_weird",
+      "themes": ["subverted_expectations", "wordplay", "absurdity_played_straight"],
+      "avoid": ["grimdark", "taking_itself_too_seriously"]
+    },
+    "dark": {
+      "description": "Horror elements, creeping dread, corruption",
+      "naming_style": "Unsettling, hard consonants, archaic",
+      "magic_level": "dangerous",
+      "themes": ["cosmic_horror", "corruption", "psychological_terror", "hope_as_contrast"],
+      "avoid": ["gratuitous_shock", "hopelessness_without_purpose"]
+    }
+  },
+
+  "scale_options": {
+    "local": {
+      "scope": "Village, town, single location",
+      "detail_level": "high",
+      "relationship_focus": "personal",
+      "threat_level": "immediate",
+      "examples": ["single tavern", "town faction", "local legend"]
+    },
+    "regional": {
+      "scope": "Kingdom, territory, trade network",
+      "detail_level": "medium",
+      "relationship_focus": "political",
+      "threat_level": "strategic",
+      "examples": ["province description", "noble house", "regional history"]
+    },
+    "continental": {
+      "scope": "Multiple kingdoms, world-spanning",
+      "detail_level": "broad",
+      "relationship_focus": "civilizational",
+      "threat_level": "world-shaking",
+      "examples": ["empire overview", "pantheon", "ancient cataclysm"]
+    }
+  },
+
+  "quick_commands": {
+    "tavern": "Generate a tavern with atmosphere, NPCs, and hooks",
+    "dungeon": "Generate a dungeon room or section",
+    "city": "Generate a city district or landmark",
+    "faction": "Generate a faction with goals and conflicts",
+    "history": "Generate a historical event or legend",
+    "rumor": "Generate rumors for social encounters",
+    "weather": "Generate weather and travel conditions",
+    "hook": "Generate a quest hook or adventure seed",
+    "region": "Generate a regional description",
+    "expand": "Expand on previously generated content"
+  },
+
+  "context_fields": {
+    "optional": [
+      "campaign_setting",
+      "existing_factions",
+      "party_level",
+      "current_location",
+      "recent_events",
+      "player_backstories",
+      "themes_to_emphasize",
+      "elements_to_avoid"
+    ]
+  },
+
+  "output_modifiers": {
+    "hooks_per_generation": "1-2",
+    "secrets_included": true,
+    "sensory_details_required": true,
+    "expansion_depth": "add 2-3 elements per layer",
+    "consistency_tracking": true
+  },
+
+  "naming_conventions": {
+    "locations": {
+      "pattern": "[Adjective] [Noun]' or 'The [Noun] of [Noun]",
+      "examples": ["The Drowned Rat", "Sunbazaar", "Gallows Isle"]
+    },
+    "factions": {
+      "pattern": "The [Noun] [Noun] or [Adjective] [Noun]",
+      "examples": ["The Listening Post", "Order of the Dawning Shield"]
+    },
+    "npcs": {
+      "pattern": "[Name] [Epithet] or [Name] the [Adjective]",
+      "examples": ["Kelp Mara", "Hazan the Honest", "The Curator"]
+    }
+  },
+
+  "tags": ["dnd", "5e", "worldbuilding", "generation", "locations", "factions", "lore", "improvisation"]
+}

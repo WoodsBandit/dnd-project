@@ -1,0 +1,372 @@
+{
+  "individual_treasure": {
+    "cr_0_4": {
+      "rolls": [
+        {"range": [1, 30], "cp": "5d6", "sp": "0", "ep": "0", "gp": "0", "pp": "0"},
+        {"range": [31, 60], "cp": "0", "sp": "4d6", "ep": "0", "gp": "0", "pp": "0"},
+        {"range": [61, 70], "cp": "0", "sp": "0", "ep": "3d6", "gp": "0", "pp": "0"},
+        {"range": [71, 95], "cp": "0", "sp": "0", "ep": "0", "gp": "3d6", "pp": "0"},
+        {"range": [96, 100], "cp": "0", "sp": "0", "ep": "0", "gp": "0", "pp": "1d6"}
+      ]
+    },
+    "cr_5_10": {
+      "rolls": [
+        {"range": [1, 30], "cp": "4d6x100", "sp": "0", "ep": "1d6x10", "gp": "0", "pp": "0"},
+        {"range": [31, 60], "cp": "0", "sp": "6d6x10", "ep": "0", "gp": "2d6x10", "pp": "0"},
+        {"range": [61, 70], "cp": "0", "sp": "0", "ep": "3d6x10", "gp": "2d6x10", "pp": "0"},
+        {"range": [71, 95], "cp": "0", "sp": "0", "ep": "0", "gp": "4d6x10", "pp": "0"},
+        {"range": [96, 100], "cp": "0", "sp": "0", "ep": "0", "gp": "2d6x10", "pp": "3d6"}
+      ]
+    },
+    "cr_11_16": {
+      "rolls": [
+        {"range": [1, 20], "cp": "0", "sp": "4d6x100", "ep": "0", "gp": "1d6x100", "pp": "0"},
+        {"range": [21, 35], "cp": "0", "sp": "0", "ep": "1d6x100", "gp": "1d6x100", "pp": "0"},
+        {"range": [36, 75], "cp": "0", "sp": "0", "ep": "0", "gp": "2d6x100", "pp": "1d6x10"},
+        {"range": [76, 100], "cp": "0", "sp": "0", "ep": "0", "gp": "2d6x100", "pp": "2d6x10"}
+      ]
+    },
+    "cr_17_plus": {
+      "rolls": [
+        {"range": [1, 15], "cp": "0", "sp": "0", "ep": "2d6x1000", "gp": "8d6x100", "pp": "0"},
+        {"range": [16, 55], "cp": "0", "sp": "0", "ep": "0", "gp": "1d6x1000", "pp": "1d6x100"},
+        {"range": [56, 100], "cp": "0", "sp": "0", "ep": "0", "gp": "1d6x1000", "pp": "2d6x100"}
+      ]
+    }
+  },
+  "hoard_treasure": {
+    "cr_0_4": {
+      "coins": {"cp": "6d6x100", "sp": "3d6x100", "ep": "0", "gp": "2d6x10", "pp": "0"},
+      "rolls": [
+        {"range": [1, 6], "gems": null, "art": null, "magic": null},
+        {"range": [7, 16], "gems": {"count": "2d6", "value": 10}, "art": null, "magic": null},
+        {"range": [17, 26], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": null},
+        {"range": [27, 36], "gems": {"count": "2d6", "value": 50}, "art": null, "magic": null},
+        {"range": [37, 44], "gems": {"count": "2d6", "value": 10}, "art": null, "magic": {"table": "A", "count": "1d6"}},
+        {"range": [45, 52], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "A", "count": "1d6"}},
+        {"range": [53, 60], "gems": {"count": "2d6", "value": 50}, "art": null, "magic": {"table": "A", "count": "1d6"}},
+        {"range": [61, 65], "gems": {"count": "2d6", "value": 10}, "art": null, "magic": {"table": "B", "count": "1d4"}},
+        {"range": [66, 70], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "B", "count": "1d4"}},
+        {"range": [71, 75], "gems": {"count": "2d6", "value": 50}, "art": null, "magic": {"table": "B", "count": "1d4"}},
+        {"range": [76, 78], "gems": {"count": "2d6", "value": 10}, "art": null, "magic": {"table": "C", "count": "1d4"}},
+        {"range": [79, 80], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "C", "count": "1d4"}},
+        {"range": [81, 85], "gems": {"count": "2d6", "value": 50}, "art": null, "magic": {"table": "C", "count": "1d4"}},
+        {"range": [86, 92], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [93, 97], "gems": {"count": "2d6", "value": 50}, "art": null, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [98, 99], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "G", "count": 1}},
+        {"range": [100, 100], "gems": {"count": "2d6", "value": 50}, "art": null, "magic": {"table": "G", "count": 1}}
+      ]
+    },
+    "cr_5_10": {
+      "coins": {"cp": "2d6x100", "sp": "2d6x1000", "ep": "0", "gp": "6d6x100", "pp": "3d6x10"},
+      "rolls": [
+        {"range": [1, 4], "gems": null, "art": null, "magic": null},
+        {"range": [5, 10], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": null},
+        {"range": [11, 16], "gems": {"count": "3d6", "value": 50}, "art": null, "magic": null},
+        {"range": [17, 22], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": null},
+        {"range": [23, 28], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": null},
+        {"range": [29, 32], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "A", "count": "1d6"}},
+        {"range": [33, 36], "gems": {"count": "3d6", "value": 50}, "art": null, "magic": {"table": "A", "count": "1d6"}},
+        {"range": [37, 40], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": {"table": "A", "count": "1d6"}},
+        {"range": [41, 44], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "A", "count": "1d6"}},
+        {"range": [45, 49], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "B", "count": "1d4"}},
+        {"range": [50, 54], "gems": {"count": "3d6", "value": 50}, "art": null, "magic": {"table": "B", "count": "1d4"}},
+        {"range": [55, 59], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": {"table": "B", "count": "1d4"}},
+        {"range": [60, 63], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "B", "count": "1d4"}},
+        {"range": [64, 66], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "C", "count": "1d4"}},
+        {"range": [67, 69], "gems": {"count": "3d6", "value": 50}, "art": null, "magic": {"table": "C", "count": "1d4"}},
+        {"range": [70, 72], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": {"table": "C", "count": "1d4"}},
+        {"range": [73, 74], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "C", "count": "1d4"}},
+        {"range": [75, 76], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "D", "count": 1}},
+        {"range": [77, 78], "gems": {"count": "3d6", "value": 50}, "art": null, "magic": {"table": "D", "count": 1}},
+        {"range": [79, 79], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": {"table": "D", "count": 1}},
+        {"range": [80, 80], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "D", "count": 1}},
+        {"range": [81, 84], "gems": null, "art": {"count": "2d4", "value": 25}, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [85, 88], "gems": {"count": "3d6", "value": 50}, "art": null, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [89, 91], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [92, 94], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [95, 96], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [97, 98], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [99, 99], "gems": {"count": "3d6", "value": 100}, "art": null, "magic": {"table": "H", "count": 1}},
+        {"range": [100, 100], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "H", "count": 1}}
+      ]
+    },
+    "cr_11_16": {
+      "coins": {"cp": "0", "sp": "0", "ep": "0", "gp": "4d6x1000", "pp": "5d6x100"},
+      "rolls": [
+        {"range": [1, 3], "gems": null, "art": null, "magic": null},
+        {"range": [4, 6], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": null},
+        {"range": [7, 9], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": null},
+        {"range": [10, 12], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": null},
+        {"range": [13, 15], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": null},
+        {"range": [16, 19], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "A", "count": "1d4"}},
+        {"range": [20, 23], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": {"table": "A", "count": "1d4"}},
+        {"range": [24, 26], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": {"table": "A", "count": "1d4"}},
+        {"range": [27, 29], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "A", "count": "1d4"}},
+        {"range": [30, 35], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "B", "count": "1d6"}},
+        {"range": [36, 40], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": {"table": "B", "count": "1d6"}},
+        {"range": [41, 45], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": {"table": "B", "count": "1d6"}},
+        {"range": [46, 50], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "B", "count": "1d6"}},
+        {"range": [51, 54], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "C", "count": "1d6"}},
+        {"range": [55, 58], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": {"table": "C", "count": "1d6"}},
+        {"range": [59, 62], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": {"table": "C", "count": "1d6"}},
+        {"range": [63, 66], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "C", "count": "1d6"}},
+        {"range": [67, 68], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "D", "count": "1d4"}},
+        {"range": [69, 70], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": {"table": "D", "count": "1d4"}},
+        {"range": [71, 72], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": {"table": "D", "count": "1d4"}},
+        {"range": [73, 74], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "D", "count": "1d4"}},
+        {"range": [75, 76], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "E", "count": 1}},
+        {"range": [77, 78], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": {"table": "E", "count": 1}},
+        {"range": [79, 80], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": {"table": "E", "count": 1}},
+        {"range": [81, 82], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "E", "count": 1}},
+        {"range": [83, 85], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [86, 88], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [89, 90], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [91, 92], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "F", "count": "1d4"}},
+        {"range": [93, 94], "gems": null, "art": {"count": "2d4", "value": 250}, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [95, 96], "gems": null, "art": {"count": "2d4", "value": 750}, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [97, 98], "gems": {"count": "3d6", "value": 500}, "art": null, "magic": {"table": "H", "count": "1d4"}},
+        {"range": [99, 99], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "H", "count": "1d4"}},
+        {"range": [100, 100], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "I", "count": 1}}
+      ]
+    },
+    "cr_17_plus": {
+      "coins": {"cp": "0", "sp": "0", "ep": "0", "gp": "12d6x1000", "pp": "8d6x1000"},
+      "rolls": [
+        {"range": [1, 2], "gems": null, "art": null, "magic": null},
+        {"range": [3, 5], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "C", "count": "1d8"}},
+        {"range": [6, 8], "gems": null, "art": {"count": "1d10", "value": 2500}, "magic": {"table": "C", "count": "1d8"}},
+        {"range": [9, 11], "gems": null, "art": {"count": "1d4", "value": 7500}, "magic": {"table": "C", "count": "1d8"}},
+        {"range": [12, 14], "gems": {"count": "1d8", "value": 5000}, "art": null, "magic": {"table": "C", "count": "1d8"}},
+        {"range": [15, 22], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "D", "count": "1d6"}},
+        {"range": [23, 30], "gems": null, "art": {"count": "1d10", "value": 2500}, "magic": {"table": "D", "count": "1d6"}},
+        {"range": [31, 38], "gems": null, "art": {"count": "1d4", "value": 7500}, "magic": {"table": "D", "count": "1d6"}},
+        {"range": [39, 46], "gems": {"count": "1d8", "value": 5000}, "art": null, "magic": {"table": "D", "count": "1d6"}},
+        {"range": [47, 52], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "E", "count": "1d6"}},
+        {"range": [53, 58], "gems": null, "art": {"count": "1d10", "value": 2500}, "magic": {"table": "E", "count": "1d6"}},
+        {"range": [59, 63], "gems": null, "art": {"count": "1d4", "value": 7500}, "magic": {"table": "E", "count": "1d6"}},
+        {"range": [64, 68], "gems": {"count": "1d8", "value": 5000}, "art": null, "magic": {"table": "E", "count": "1d6"}},
+        {"range": [69, 69], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [70, 70], "gems": null, "art": {"count": "1d10", "value": 2500}, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [71, 71], "gems": null, "art": {"count": "1d4", "value": 7500}, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [72, 72], "gems": {"count": "1d8", "value": 5000}, "art": null, "magic": {"table": "G", "count": "1d4"}},
+        {"range": [73, 74], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "H", "count": "1d4"}},
+        {"range": [75, 76], "gems": null, "art": {"count": "1d10", "value": 2500}, "magic": {"table": "H", "count": "1d4"}},
+        {"range": [77, 78], "gems": null, "art": {"count": "1d4", "value": 7500}, "magic": {"table": "H", "count": "1d4"}},
+        {"range": [79, 80], "gems": {"count": "1d8", "value": 5000}, "art": null, "magic": {"table": "H", "count": "1d4"}},
+        {"range": [81, 85], "gems": {"count": "3d6", "value": 1000}, "art": null, "magic": {"table": "I", "count": "1d4"}},
+        {"range": [86, 90], "gems": null, "art": {"count": "1d10", "value": 2500}, "magic": {"table": "I", "count": "1d4"}},
+        {"range": [91, 95], "gems": null, "art": {"count": "1d4", "value": 7500}, "magic": {"table": "I", "count": "1d4"}},
+        {"range": [96, 100], "gems": {"count": "1d8", "value": 5000}, "art": null, "magic": {"table": "I", "count": "1d4"}}
+      ]
+    }
+  },
+  "gems": {
+    "10": [
+      "Azurite (opaque mottled deep blue)",
+      "Banded agate (translucent striped brown/blue/white/red)",
+      "Blue quartz (transparent pale blue)",
+      "Eye agate (translucent circles of gray/white/brown/blue/green)",
+      "Hematite (opaque gray-black)",
+      "Lapis lazuli (opaque light and dark blue with yellow flecks)",
+      "Malachite (opaque striated light and dark green)",
+      "Moss agate (translucent pink or yellow-white with gray/green markings)",
+      "Obsidian (opaque black)",
+      "Rhodochrosite (opaque light pink)",
+      "Tiger eye (translucent brown with golden center)",
+      "Turquoise (opaque light blue-green)"
+    ],
+    "50": [
+      "Bloodstone (opaque dark gray with red flecks)",
+      "Carnelian (opaque orange to red-brown)",
+      "Chalcedony (opaque white)",
+      "Chrysoprase (translucent green)",
+      "Citrine (transparent pale yellow-brown)",
+      "Jasper (opaque blue/black/brown)",
+      "Moonstone (translucent white with pale blue glow)",
+      "Onyx (opaque bands of black and white)",
+      "Quartz (transparent white/smoky gray/yellow)",
+      "Sardonyx (opaque bands of red and white)",
+      "Star rose quartz (translucent rosy stone with white star-shaped center)",
+      "Zircon (transparent pale blue-green)"
+    ],
+    "100": [
+      "Amber (transparent watery gold to rich gold)",
+      "Amethyst (transparent deep purple)",
+      "Chrysoberyl (transparent yellow-green to pale green)",
+      "Coral (opaque crimson)",
+      "Garnet (transparent red/brown-green/violet)",
+      "Jade (translucent light green/deep green/white)",
+      "Jet (opaque deep black)",
+      "Pearl (opaque lustrous white/yellow/pink)",
+      "Spinel (transparent red/red-brown/deep green)",
+      "Tourmaline (transparent pale green/blue/brown/red)"
+    ],
+    "500": [
+      "Alexandrite (transparent dark green)",
+      "Aquamarine (transparent pale blue-green)",
+      "Black pearl (opaque pure black)",
+      "Blue spinel (transparent deep blue)",
+      "Peridot (transparent rich olive green)",
+      "Topaz (transparent golden yellow)"
+    ],
+    "1000": [
+      "Black opal (translucent dark green with black mottling and golden flecks)",
+      "Blue sapphire (transparent blue-white to medium blue)",
+      "Emerald (transparent deep bright green)",
+      "Fire opal (translucent fiery red)",
+      "Opal (translucent pale blue with green and golden mottling)",
+      "Star ruby (translucent ruby with white star-shaped center)",
+      "Star sapphire (translucent blue sapphire with white star-shaped center)",
+      "Yellow sapphire (transparent fiery yellow or yellow-green)"
+    ],
+    "5000": [
+      "Black sapphire (translucent lustrous black with glowing highlights)",
+      "Diamond (transparent blue-white/canary/pink/brown/blue)",
+      "Jacinth (transparent fiery orange)",
+      "Ruby (transparent clear red to deep crimson)"
+    ]
+  },
+  "art_objects": {
+    "25": [
+      "Silver ewer",
+      "Carved bone statuette",
+      "Small gold bracelet",
+      "Cloth-of-gold vestments",
+      "Black velvet mask stitched with silver thread",
+      "Copper chalice with silver filigree",
+      "Pair of engraved bone dice",
+      "Small mirror set in a painted wooden frame",
+      "Embroidered silk handkerchief",
+      "Gold locket with a painted portrait inside"
+    ],
+    "250": [
+      "Gold ring set with bloodstones",
+      "Carved ivory statuette",
+      "Large gold bracelet",
+      "Silver necklace with a gemstone pendant",
+      "Bronze crown",
+      "Silk robe with gold embroidery",
+      "Large well-made tapestry",
+      "Brass mug with jade inlay",
+      "Box of turquoise animal figurines",
+      "Gold bird cage with electrum filigree"
+    ],
+    "750": [
+      "Silver chalice set with moonstones",
+      "Silver-plated steel longsword with jet set in hilt",
+      "Carved harp of exotic wood with ivory inlay and zircon gems",
+      "Small gold idol",
+      "Gold dragon comb set with red garnets as eyes",
+      "Bottle stopper cork embossed with gold leaf and set with amethysts",
+      "Ceremonial electrum dagger with a black pearl in the pommel",
+      "Silver and gold brooch",
+      "Obsidian statuette with gold fittings and inlay",
+      "Painted gold war mask"
+    ],
+    "2500": [
+      "Fine gold chain set with a fire opal",
+      "Old masterpiece painting",
+      "Embroidered silk and velvet mantle set with numerous moonstones",
+      "Platinum bracelet set with a sapphire",
+      "Embroidered glove set with jewel chips",
+      "Jeweled anklet",
+      "Gold music box",
+      "Gold circlet set with four aquamarines",
+      "Eye patch with a mock eye set in blue sapphire and moonstone",
+      "A necklace string of small pink pearls"
+    ],
+    "7500": [
+      "Jeweled gold crown",
+      "Jeweled platinum ring",
+      "Small gold statuette set with rubies",
+      "Gold cup set with emeralds",
+      "Gold jewelry box with platinum filigree",
+      "Painted gold child's sarcophagus",
+      "Jade game board with solid gold playing pieces",
+      "Bejeweled ivory drinking horn with gold filigree"
+    ]
+  },
+  "themes": {
+    "dragon": {
+      "description": "Ancient dragon hoard with massive wealth",
+      "coin_multiplier": 2.0,
+      "gem_multiplier": 1.5,
+      "art_multiplier": 1.5,
+      "preferred_gems": ["1000", "5000"],
+      "extra_items": ["Charred adventurer's pack", "Melted weapons and armor", "Dragon scale", "Burned treasure map", "Petrified knight's shield"]
+    },
+    "undead": {
+      "description": "Tomb or crypt treasure with ancient items",
+      "coin_multiplier": 0.8,
+      "gem_multiplier": 1.0,
+      "art_multiplier": 1.5,
+      "preferred_gems": ["100", "500"],
+      "extra_items": ["Ancient crown", "Dusty spellbook", "Funeral mask", "Preserved organ jar", "Burial shroud with gold thread"]
+    },
+    "bandit": {
+      "description": "Recently stolen goods with practical items",
+      "coin_multiplier": 1.0,
+      "gem_multiplier": 0.5,
+      "art_multiplier": 0.5,
+      "preferred_gems": ["10", "50"],
+      "extra_items": ["Stolen merchant ledger", "Noble's signet ring", "Quality wine (stolen)", "Trade goods bundle", "Wanted poster"]
+    },
+    "merchant": {
+      "description": "Trade caravan goods with varied merchandise",
+      "coin_multiplier": 1.2,
+      "gem_multiplier": 1.0,
+      "art_multiplier": 1.2,
+      "preferred_gems": ["50", "100"],
+      "extra_items": ["Trade contract", "Exotic spices", "Fine cloth bolt", "Merchant's scale", "Regional trade map"]
+    },
+    "arcane": {
+      "description": "Wizard's tower or magical laboratory cache",
+      "coin_multiplier": 0.5,
+      "gem_multiplier": 2.0,
+      "art_multiplier": 0.5,
+      "preferred_gems": ["100", "500", "1000"],
+      "extra_items": ["Spell components pouch", "Crystal vial of unknown liquid", "Torn spellbook page", "Arcane focus", "Strange artifact"]
+    },
+    "noble": {
+      "description": "Noble family vault or estate treasury",
+      "coin_multiplier": 1.5,
+      "gem_multiplier": 1.5,
+      "art_multiplier": 2.0,
+      "preferred_gems": ["500", "1000"],
+      "extra_items": ["Family crest tapestry", "Noble house documents", "Decorative sword (ceremonial)", "Portrait painting", "Silver tableware set"]
+    },
+    "pirate": {
+      "description": "Buried or hidden pirate treasure",
+      "coin_multiplier": 1.8,
+      "gem_multiplier": 0.8,
+      "art_multiplier": 0.8,
+      "preferred_gems": ["50", "100", "500"],
+      "extra_items": ["Treasure map (possibly fake)", "Captain's log", "Naval navigation tools", "Rum barrel", "Pirate flag"]
+    },
+    "fey": {
+      "description": "Faerie treasure with strange and beautiful items",
+      "coin_multiplier": 0.3,
+      "gem_multiplier": 2.0,
+      "art_multiplier": 1.5,
+      "preferred_gems": ["100", "500"],
+      "extra_items": ["Bottle of starlight", "Preserved flower that never wilts", "Music box that plays by itself", "Mirror showing strange reflections", "Crystallized dewdrop"]
+    },
+    "elemental": {
+      "description": "Elemental plane or creature treasure",
+      "coin_multiplier": 0.5,
+      "gem_multiplier": 3.0,
+      "art_multiplier": 0.5,
+      "preferred_gems": ["500", "1000", "5000"],
+      "extra_items": ["Everburning coal", "Chunk of pure ice that never melts", "Vial of liquid lightning", "Stone that floats", "Perpetual wind chime"]
+    },
+    "fiend": {
+      "description": "Demonic or infernal treasure cache",
+      "coin_multiplier": 1.0,
+      "gem_multiplier": 1.5,
+      "art_multiplier": 1.0,
+      "preferred_gems": ["500", "1000"],
+      "extra_items": ["Soul coin", "Infernal contract", "Demonic idol", "Bone dice that always win", "Chalice of dark liquid"]
+    }
+  }
+}
