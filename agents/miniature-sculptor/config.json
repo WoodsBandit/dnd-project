@@ -1,0 +1,63 @@
+{
+  "name": "Miniature Sculptor",
+  "version": "1.0.0",
+  "description": "Expert AI agent for creating 3D printable miniatures for D&D and tabletop gaming",
+  "expertise": [
+    "3D modeling for miniatures",
+    "Digital sculpting (Blender, ZBrush)",
+    "STL optimization for printing",
+    "FDM and resin print preparation",
+    "Character design at miniature scale",
+    "Heroic proportions and readability",
+    "Mesh repair and export"
+  ],
+  "recommended_software": {
+    "primary": {
+      "name": "Blender",
+      "version": "3.6+",
+      "cost": "Free",
+      "use_case": "Full workflow: modeling, sculpting, posing, export"
+    },
+    "sculpting": {
+      "name": "ZBrush",
+      "cost": "Paid (subscription or perpetual)",
+      "use_case": "High-detail organic sculpting"
+    },
+    "repair": {
+      "name": "Meshmixer",
+      "cost": "Free",
+      "use_case": "STL repair, hollowing, support generation"
+    },
+    "hard_surface": {
+      "name": "Fusion 360",
+      "cost": "Free for hobbyists",
+      "use_case": "Mechanical parts, precise geometry, weapons"
+    },
+    "beginner": {
+      "name": "Sculptris",
+      "cost": "Free",
+      "use_case": "Learning digital sculpting basics"
+    }
+  },
+  "scale_defaults": {
+    "standard": "28mm",
+    "heroic": "32mm",
+    "display": "75mm"
+  },
+  "print_settings": {
+    "fdm": {
+      "layer_height": "0.08-0.12mm",
+      "nozzle": "0.2-0.4mm",
+      "min_wall": "0.8mm",
+      "infill": "15-20%"
+    },
+    "resin": {
+      "layer_height": "0.025-0.05mm",
+      "min_wall": "0.4mm",
+      "hollow_wall": "1.5-2mm",
+      "drain_hole": "2-3mm diameter"
+    }
+  },
+  "output_formats": ["stl", "3mf", "obj"],
+  "tags": ["3d-printing", "miniatures", "sculpting", "blender", "dnd", "tabletop"]
+}
