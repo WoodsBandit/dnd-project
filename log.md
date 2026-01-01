@@ -1,9 +1,20 @@
 # D&D Project Log
 
+## 2026-01-01 - Stranger Things Campaign Marked as Fan Content
+
+### Summary
+Added disclaimers clarifying that the Stranger Things campaign content is **fan-created, inspired by** the official D&D Starter Set - NOT a reproduction of the official adventure. Specific stat blocks, NPC names, room descriptions, and mechanical details were created for this project and may differ from the published material.
+
+### Added
+- `campaigns/stranger-things/DISCLAIMER.md` - Full disclaimer explaining what is verified vs. fan-created
+- Updated `overview.md` with prominent disclaimer at top
+
+---
+
 ## 2025-12-31 - Stranger Things Campaign COMPLETE
 
 ### Summary
-The "Hunt for the Thessalhydra" Stranger Things D&D campaign is now complete. All [FILL FROM BOOK] placeholders have been filled with publicly available information. The campaign is ready to run.
+The "Hunt for the Thessalhydra" Stranger Things D&D campaign content created. Note: This is fan-created content inspired by the official Starter Set, not a reproduction.
 
 ### Completed - All 6 Session Chapters
 - **chapter-01-the-quest-begins.md** - Sir Tristan's quest briefing, equipment distribution, reward details

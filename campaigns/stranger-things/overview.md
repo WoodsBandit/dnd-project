@@ -1,6 +1,8 @@
 # Hunt for the Thessalhydra
 
-> *A D&D Campaign by Mike Wheeler - Stranger Things Starter Set*
+> **DISCLAIMER:** This is fan-created content **inspired by** the official D&D Stranger Things Starter Set (2019). It is NOT a reproduction of the official adventure. Specific stat blocks, NPC names, room descriptions, dialogue, and mechanical details were created for this project and may differ significantly from the published material. For the official content, purchase the Stranger Things Starter Set.
+
+> *Inspired by the D&D Stranger Things Starter Set*
 
 ## Setting Summary
 
